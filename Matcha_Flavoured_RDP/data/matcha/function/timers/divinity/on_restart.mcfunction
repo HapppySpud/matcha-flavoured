@@ -1,2 +1,2 @@
-function matcha:timers/divinity/divinity_armor
+function matcha:timers/divinity/adamant_armour
 function matcha:timers/divinity/electrum_armour

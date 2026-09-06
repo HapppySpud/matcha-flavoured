@@ -3,7 +3,8 @@
 	"primary_items": "#minecraft:enchantable/weapon",
 	"anvil_cost": 0,
 	"description": {
-		"translate": "enchantment.kleispack.adamant_weapon"
+		"translate": "enchantment.kleispack.adamant_weapon",
+		"color": "#b6a09a"
 	},
 	"effects": {
 		"minecraft:post_attack": [
@@ -11,10 +12,10 @@
 				"effect": {
 					"type": "minecraft:apply_mob_effect",
 					"to_apply": "minecraft:weakness",
-					"min_duration": 4,
-					"max_duration": 8,
+					"min_duration": 8,
+					"max_duration": 12,
 					"min_amplifier": 1,
-					"max_amplifier": 2
+					"max_amplifier": 1
 				},
 				"enchanted": "attacker",
 				"affected": "victim"

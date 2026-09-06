@@ -16,26 +16,31 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "desc.kleispack.armour",
-					"with": [{"text": "6"}],
+					"translate": "desc.kleispack.armour",
+					"with": ["6"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "desc.kleispack.armour_toughness",
-					"with": [{"text": "3"}],
+					"translate": "desc.kleispack.armour_toughness",
+					"with": ["3"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "desc.kleispack.knockback_resistance",
-					"with": [{"text": "1"}],
+					"translate": "desc.kleispack.knockback_resistance",
+					"with": ["1"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.set_bonus",
 					"color": "dark_gray",
+					"italic": false
+				},
+				{
+					"translate": "enchantment.kleispack.adamant_armour.set_bonus",
+					"color": "red",
 					"italic": false
 				},
 				{

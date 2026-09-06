@@ -3,7 +3,7 @@
 	"anvil_cost": 0,
 	"description": {
 		"translate": "enchantment.kleispack.adamant_armour",
-		"color": "yellow"
+		"color": "red"
 	},
 	"effects": {
 		"minecraft:tick": [

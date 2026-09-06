@@ -724,7 +724,6 @@
   "item.kleispack.trade.bulk_terracotta.desc": "x64 Terracotta",
   "item.kleispack.trade.bulk_tuff": "Bulk Tuff",
   "item.kleispack.trade.bulk_tuff.desc": "x64 Tuff",
-
   "item.kleispack.baby_cold_sheep": "Black Lamb",
   "item.kleispack.baby_temperate_sheep": "White Lamb",
   "item.kleispack.baby_warm_sheep": "Brown Lamb",
@@ -1140,5 +1139,14 @@
   "adv.kleispack.with_songs.obtain_tanakh.desc": "Desecrate an Abbey",
   "filled_map.house_of_wisdom": "Archive Map",
   "error.kleispack.wear_me": "§cERROR: Wear me to update",
-  "error.kleispack.hold_me": "§cERROR: Hold me to update"
+  "error.kleispack.hold_me": "§cERROR: Hold me to update",
+  "desc.kleispack.armour": "\uE03D %s",
+  "desc.kleispack.armour_toughness": "\uE008 %s",
+  "desc.kleispack.mining_speed": "\uE036 %s",
+  "desc.kleispack.attack_damage": "\uE037 %s",
+  "desc.kleispack.cooldown": "\uE012 %s",
+  "desc.kleispack.knockback_resistance": "\uE023 %s",
+  "enchantment.kleispack.adamant_armour": "\uE041 3",
+  "enchantment.kleispack.adamant_armour.set_bonus": "  \uE042 4",
+  "enchantment.kleispack.adamant_weapon": "\uE017"
 }

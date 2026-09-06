@@ -1,0 +1,1 @@
+execute as @a[scores={adamant_armour=4}] at @s run effect give @s minecraft:absorption 31 0 true
