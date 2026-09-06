@@ -1,3 +1,8 @@
+#If there are no doom targets (entities with weakness and not wearing adamant), dont continue the function
+execute unless entity @e[distance=..16,predicate=matcha:effects/has_weakness,predicate=matcha:has_adamant] run return fail
 
-#If the target has weakness and is NOT wearing adamant, apply DOOM
-execute as @e[distance=..16] if predicate matcha:effects/has_weakness unless entity @s[scores={adamant_armour=1..}] run function matcha:enchantment_effects/adamant_effects/apply_doom_2
+#Since the function continued, there is atleast one doom target, so play the associated sound
+playsound minecraft:event.mob_effect.raid_omen hostile @a ~ ~ ~ 0.1 2
+
+#Run apply_doom on all doom targets
+execute as @e[distance=..16,predicate=matcha:effects/has_weakness,predicate=matcha:has_adamant] run function matcha:enchantment_effects/adamant_effects/apply_doom_2
