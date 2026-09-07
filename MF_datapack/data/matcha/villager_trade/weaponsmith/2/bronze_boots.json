@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:copper_boots",
 		"components": {
-			"minecraft:item_model": "minecraft:bronze_boots"
+			"minecraft:item_model": "matcha:bronze_boots"
 		},
 		"count": 1
 	},

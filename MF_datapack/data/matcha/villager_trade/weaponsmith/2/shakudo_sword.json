@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:stone_sword",
 		"components": {
-			"minecraft:item_model": "minecraft:palatinate_sword"
+			"minecraft:item_model": "matcha:palatinate_sword"
 		},
 		"count": 1
 	},

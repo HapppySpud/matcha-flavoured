@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:stone_axe",
 		"components": {
-			"minecraft:item_model": "minecraft:shakudo_axe"
+			"minecraft:item_model": "matcha:shakudo_axe"
 		},
 		"count": 1
 	},

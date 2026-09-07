@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:stone_pickaxe",
 		"components": {
-			"minecraft:item_model": "minecraft:bronze_pickaxe"
+			"minecraft:item_model": "matcha:bronze_pickaxe"
 		},
 		"count": 1
 	},

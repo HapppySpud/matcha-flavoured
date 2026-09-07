@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:stone_pickaxe",
 		"components": {
-			"minecraft:item_model": "minecraft:shakudo_pickaxe"
+			"minecraft:item_model": "matcha:shakudo_pickaxe"
 		},
 		"count": 1
 	},

@@ -5,7 +5,7 @@
 	"gives": {
 		"id": "minecraft:paper",
 		"components": {
-			"minecraft:item_model": "minecraft:warped_stroganoff_recipe",
+			"minecraft:item_model": "matcha:warped_stroganoff_recipe",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.cooking_recipe"
 			},

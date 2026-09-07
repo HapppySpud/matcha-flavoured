@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:stone_spear",
 		"components": {
-			"minecraft:item_model": "minecraft:shakudo_spear"
+			"minecraft:item_model": "matcha:shakudo_spear"
 		},
 		"count": 1
 	},

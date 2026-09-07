@@ -5,7 +5,7 @@
 	"gives": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:sweet_berry_toast",
+			"minecraft:item_model": "matcha:sweet_berry_toast",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.sweet_berry_toast",
 				"color": "#e85e8f"

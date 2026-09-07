@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:diamond_chestplate",
 		"components": {
-			"minecraft:item_model": "minecraft:electrum_chestplate"
+			"minecraft:item_model": "matcha:electrum_chestplate"
 		},
 		"count": 1
 	},

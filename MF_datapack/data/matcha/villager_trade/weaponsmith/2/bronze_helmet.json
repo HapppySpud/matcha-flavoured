@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:copper_helmet",
 		"components": {
-			"minecraft:item_model": "minecraft:bronze_helmet"
+			"minecraft:item_model": "matcha:bronze_helmet"
 		},
 		"count": 1
 	},

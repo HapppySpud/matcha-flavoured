@@ -2,7 +2,7 @@
 	"gives": {
 		"id": "minecraft:wooden_sword",
 		"components": {
-			"minecraft:item_model": "minecraft:crook",
+			"minecraft:item_model": "matcha:crook",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.crook"
 			},

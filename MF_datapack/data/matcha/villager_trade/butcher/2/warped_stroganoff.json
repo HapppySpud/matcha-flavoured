@@ -5,7 +5,7 @@
 	"gives": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:warped_stroganoff",
+			"minecraft:item_model": "matcha:warped_stroganoff",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.warped_stroganoff",
 				"color": "#3cc6c8"

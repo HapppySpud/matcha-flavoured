@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:stone_hoe",
 		"components": {
-			"minecraft:item_model": "minecraft:shakudo_mattock"
+			"minecraft:item_model": "matcha:shakudo_mattock"
 		},
 		"count": 1
 	},
