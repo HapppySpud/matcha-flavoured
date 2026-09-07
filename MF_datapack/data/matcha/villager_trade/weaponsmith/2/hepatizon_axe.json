@@ -1,8 +1,8 @@
 {
 	"wants": {
-		"id": "minecraft:copper_chestplate",
+		"id": "minecraft:stone_axe",
 		"components": {
-			"minecraft:item_model": "matcha:bronze_chestplate"
+			"minecraft:item_model": "matcha:hepatizon_axe"
 		},
 		"count": 1
 	},

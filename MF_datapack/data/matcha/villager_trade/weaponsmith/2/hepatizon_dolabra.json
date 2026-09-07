@@ -1,8 +1,8 @@
 {
 	"wants": {
-		"id": "minecraft:stone_sword",
+		"id": "minecraft:stone_axe",
 		"components": {
-			"minecraft:item_model": "matcha:bronze_sword"
+			"minecraft:item_model": "matcha:hepatizon_dolabra"
 		},
 		"count": 1
 	},

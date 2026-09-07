@@ -1,8 +1,8 @@
 {
 	"wants": {
-		"id": "minecraft:stone_pickaxe",
+		"id": "minecraft:stone_hoe",
 		"components": {
-			"minecraft:item_model": "matcha:bronze_pickaxe"
+			"minecraft:item_model": "matcha:hepatizon_mattock"
 		},
 		"count": 1
 	},

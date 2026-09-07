@@ -2,7 +2,7 @@
 	"gives": {
 		"id": "minecraft:shears",
 		"components": {
-			"minecraft:item_model": "matcha:bronze_shears",
+			"minecraft:item_model": "matcha:hepatizon_shears",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.shepherds_shears"
 			},
