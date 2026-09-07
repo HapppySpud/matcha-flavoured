@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blaze_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:enchantments": {
+									"matcha:warding_2": 1
+								},
+								"!minecraft:entity_data": {}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

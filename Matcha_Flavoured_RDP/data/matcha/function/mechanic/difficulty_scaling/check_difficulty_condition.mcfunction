@@ -1,1 +1,0 @@
-execute unless score current_world_settings_difficulty difficulty_score matches 3 run execute if score current_minimum_hearts Hearts matches 10 run function matcha:mechanic/difficulty_scaling/increase_difficulty

@@ -1,0 +1,68 @@
+{
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 4
+	},
+	"additional_wants": {
+		"id": "minecraft:fermented_spider_eye",
+		"components": {
+			"minecraft:item_model": "matcha:opal",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.opal",
+				"color": "#ab85ad"
+			}
+		}
+	},
+	"gives": {
+		"id": "minecraft:netherite_helmet",
+		"components": {
+			"minecraft:max_damage": 250,
+			"minecraft:lore": [
+				{
+					"translate": "desc.kleispack.armour",
+					"with":["1"],
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.opal_earrings",
+				"color": "#ab85ad"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.helmet",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "head"
+				},
+				{
+					"type": "minecraft:knockback_resistance",
+					"id": "minecraft:armor.helmet",
+					"amount": 0,
+					"operation": "add_value",
+					"slot": "head"
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:item_model": "matcha:opal_earrings",
+			"minecraft:equippable": {
+				"slot": "head",
+				"asset_id": "matcha:opal_earrings"
+			},
+			"minecraft:enchantments": {
+				"matcha:conduit_power": 1
+			},
+			"minecraft:unbreakable": {}
+		},
+		"count": 1
+	},
+	"max_uses": 999,
+	"reputation_discount": 0,
+	"xp": 10
+}

@@ -11,7 +11,7 @@ My plan to fix this is the Wither Fight
 As some of you may know I'm basing this off of the forest spirit boss in alumeria, the way he moves and summons baddies to help Fight
 I want one of his attacks to remove a heart from the player WITHOUT killing them, like the Ganon fight in TOTK. 
 That way I think it feels much more fair to fight the wither and the reward feels like more of a reward.
-Plus is means breaking spawners is still a good move.
+Plus this means breaking spawners is still a good move.
 I also plan for the wither to only be summonable in one specific structure. That way people won't fight him underground
 OR make it so he is only summonable if exposed to the sky, and above a certain y level. I haven't decided yet which would be better
 

@@ -1,0 +1,18 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:flags": {
+					"is_in_water": true
+				},
+				"minecraft:location": {
+					"biomes": "#minecraft:is_frozen",
+					"can_see_sky": true
+				}
+			}
+		}
+	]
+}
