@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:stone_hoe",
 		"components": {
-			"minecraft:item_model": "minecraft:bronze_mattock"
+			"minecraft:item_model": "matcha:hepatizon_hoe"
 		},
 		"count": 1
 	},

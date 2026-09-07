@@ -1,8 +1,8 @@
 {
 	"wants": {
-		"id": "minecraft:stone_axe",
+		"id": "minecraft:copper_helmet",
 		"components": {
-			"minecraft:item_model": "minecraft:bronze_axe"
+			"minecraft:item_model": "matcha:hepatizon_helmet"
 		},
 		"count": 1
 	},

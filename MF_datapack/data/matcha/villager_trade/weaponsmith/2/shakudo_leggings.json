@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:copper_leggings",
 		"components": {
-			"minecraft:item_model": "minecraft:shakudo_leggings"
+			"minecraft:item_model": "matcha:shakudo_leggings"
 		},
 		"count": 1
 	},

@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:stone_hoe",
 		"components": {
-			"minecraft:item_model": "minecraft:electrum_hoe"
+			"minecraft:item_model": "matcha:electrum_hoe"
 		},
 		"count": 1
 	},

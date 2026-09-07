@@ -1,8 +1,8 @@
 {
 	"wants": {
-		"id": "minecraft:stone_hoe",
+		"id": "minecraft:stone_axe",
 		"components": {
-			"minecraft:item_model": "minecraft:bronze_hoe"
+			"minecraft:item_model": "matcha:hepatizon_dolabra"
 		},
 		"count": 1
 	},

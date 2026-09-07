@@ -1,7 +1,7 @@
 {
 	"gives": {
 		"components": {
-			"minecraft:item_model": "minecraft:application",
+			"minecraft:item_model": "matcha:application",
 			"minecraft:item_name": {
                 "translate": "item.kleispack.asylum_seeker"
             },

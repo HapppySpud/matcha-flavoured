@@ -6,7 +6,7 @@
 	"additional_wants": {
 		"id": "minecraft:fermented_spider_eye",
 		"components": {
-			"minecraft:item_model": "minecraft:ruby",
+			"minecraft:item_model": "matcha:ruby",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.ruby",
 				"color": "red"

@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:stone_shovel",
 		"components": {
-			"minecraft:item_model": "minecraft:electrum_shovel"
+			"minecraft:item_model": "matcha:electrum_shovel"
 		},
 		"count": 1
 	},

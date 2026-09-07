@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:diamond_leggings",
 		"components": {
-			"minecraft:item_model": "minecraft:electrum_leggings"
+			"minecraft:item_model": "matcha:electrum_leggings"
 		},
 		"count": 1
 	},

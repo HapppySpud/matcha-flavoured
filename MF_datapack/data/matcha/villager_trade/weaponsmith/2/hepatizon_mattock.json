@@ -1,8 +1,8 @@
 {
 	"wants": {
-		"id": "minecraft:copper_chestplate",
+		"id": "minecraft:stone_hoe",
 		"components": {
-			"minecraft:item_model": "minecraft:bronze_chestplate"
+			"minecraft:item_model": "matcha:hepatizon_mattock"
 		},
 		"count": 1
 	},

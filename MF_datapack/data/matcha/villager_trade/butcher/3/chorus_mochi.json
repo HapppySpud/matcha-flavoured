@@ -5,7 +5,7 @@
 	"gives": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:chorus_mochi",
+			"minecraft:item_model": "matcha:chorus_mochi",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.chorus_mochi",
 				"color": "#ae6cbc"

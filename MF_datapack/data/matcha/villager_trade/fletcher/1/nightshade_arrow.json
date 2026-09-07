@@ -2,7 +2,7 @@
 	"gives": {
 		"id": "minecraft:tipped_arrow",
 		"components": {
-			"minecraft:item_model": "minecraft:nightshade_arrow",
+			"minecraft:item_model": "matcha:nightshade_arrow",
 			"minecraft:potion_contents": {
 				"potion": "minecraft:strong_poison",
 				"custom_name": "nightshade_arrow"

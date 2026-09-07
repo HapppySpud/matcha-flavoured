@@ -5,7 +5,7 @@
 	"gives": {
 		"id": "minecraft:iron_axe",
 		"components": {
-			"minecraft:item_model": "minecraft:bloodrage_hatchet",
+			"minecraft:item_model": "matcha:bloodrage_hatchet",
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_damage",

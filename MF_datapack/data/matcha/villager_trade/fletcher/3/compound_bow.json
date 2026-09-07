@@ -14,7 +14,7 @@
 					"minecraft:string"
 				]
 			},
-			"minecraft:item_model": "minecraft:compound_bow",
+			"minecraft:item_model": "matcha:compound_bow",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.compound_bow",
 				"color": "white"

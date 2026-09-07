@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:stone_shovel",
 		"components": {
-			"minecraft:item_model": "minecraft:shakudo_shovel"
+			"minecraft:item_model": "matcha:shakudo_shovel"
 		},
 		"count": 1
 	},

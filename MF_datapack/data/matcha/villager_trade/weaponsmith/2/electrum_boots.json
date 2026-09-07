@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:diamond_boots",
 		"components": {
-			"minecraft:item_model": "minecraft:electrum_boots"
+			"minecraft:item_model": "matcha:electrum_boots"
 		},
 		"count": 1
 	},

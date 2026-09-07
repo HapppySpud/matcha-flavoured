@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:netherite_hoe",
 		"components": {
-			"minecraft:item_model": "minecraft:adamant_mattock"
+			"minecraft:item_model": "matcha:adamant_mattock"
 		},
 		"count": 1
 	},

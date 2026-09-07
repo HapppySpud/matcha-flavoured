@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:netherite_axe",
 		"components": {
-			"minecraft:item_model": "minecraft:adamant_dolabra"
+			"minecraft:item_model": "matcha:adamant_dolabra"
 		},
 		"count": 1
 	},

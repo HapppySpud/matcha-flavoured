@@ -1,8 +1,8 @@
 {
 	"wants": {
-		"id": "minecraft:stone_shovel",
+		"id": "minecraft:copper_leggings",
 		"components": {
-			"minecraft:item_model": "minecraft:bronze_shovel"
+			"minecraft:item_model": "matcha:hepatizon_leggings"
 		},
 		"count": 1
 	},

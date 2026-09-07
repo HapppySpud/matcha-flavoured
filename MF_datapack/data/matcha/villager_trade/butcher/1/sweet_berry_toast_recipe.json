@@ -5,7 +5,7 @@
 	"gives": {
 		"id": "minecraft:paper",
 		"components": {
-			"minecraft:item_model": "minecraft:sweet_berry_toast_recipe",
+			"minecraft:item_model": "matcha:sweet_berry_toast_recipe",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.cooking_recipe"
 			},
