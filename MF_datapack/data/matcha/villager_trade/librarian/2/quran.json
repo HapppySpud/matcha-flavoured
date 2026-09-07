@@ -12,7 +12,7 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_model": "minecraft:ofuda",
+			"minecraft:item_model": "matcha:ofuda",
 			"minecraft:stored_enchantments": {
 				"minecraft:protection": 2
 			}

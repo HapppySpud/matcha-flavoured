@@ -16,7 +16,7 @@
 		"count": 1,
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "minecraft:heart_container",
+			"minecraft:item_model": "matcha:heart_container",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.crystal_heart"
 			},
