@@ -2,4 +2,4 @@
 #Add the tag so that the beacon doesn't summon another
 execute as @s run tag @s add summoned_trader
 execute at @s run summon wandering_trader ^1 ^ ^ {Invulnerable:1b,Tags:["summoned_by_beacon"]}
-tellraw @a {"text":"The Wandering Trader has arrived, they will depart in 5 minutes","color":"gray"}
+tellraw @a {"translate":"log.kleispack.wandering_trader.summoned","color":"gray"}

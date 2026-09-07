@@ -1,5 +1,4 @@
-# stopwatch create wandering_trader10min
-tellraw @a {"text":"A Wandering Trader has spotted your beacon, they will arrive in 10 minutes","color":"gray"}
+tellraw @a {"translate":"log.kleispack.wandering_trader.initialise","color":"gray"}
 scoreboard players add @n[type=marker,tag=beacon_kindling] wandering_trader_timer_score 0
 
 #Initilise the loop
