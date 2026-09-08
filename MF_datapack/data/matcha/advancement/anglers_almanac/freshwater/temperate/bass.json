@@ -4,7 +4,7 @@
     "icon": {
       "id": "salmon",
       "components": {
-        "minecraft:item_model": "match:bass"
+        "minecraft:item_model": "matcha:bass"
       }
     },
     "title": {
@@ -46,7 +46,7 @@
         },
         "item": {
           "components": {
-            "minecraft:item_model": "match:bass"
+            "minecraft:item_model": "matcha:bass"
           }
         }
       }
