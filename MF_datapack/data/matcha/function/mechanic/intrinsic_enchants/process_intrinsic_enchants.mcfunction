@@ -26,8 +26,8 @@ function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:reach"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:regeneration"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:riposte"}
-function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:sanguine"}
-function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:shakudo_regen"}
+function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:shakudo_weapon"}
+function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:shakudo_armour"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:slaughter"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:traversal"}
 function matcha:mechanic/intrinsic_enchants/select_higher_level {"enchantment_id": "matcha:warding_1"}

@@ -10,7 +10,7 @@
 				"translate": "item.kleispack.shakudo_sword",
 				"color": "#c96691"
 			},
-			"minecraft:item_model": "matcha:palatinate_sword",
+			"minecraft:item_model": "matcha:shakudo_sword",
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_damage",

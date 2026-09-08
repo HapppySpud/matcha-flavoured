@@ -26,21 +26,25 @@
                 "has_intrinsic_enchants": 1
 			},
 			"minecraft:stored_enchantments": {
-				"minecraft:silk_touch": 1
+				"minecraft:silk_touch": 1,
+				"matcha:shakudo_weapon": 1
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 9",
+					"translate": "desc.kleispack.mining_speed",
+					"with": ["9"],
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 9",
+					"translate": "desc.kleispack.attack_damage",
+					"with": ["9"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1",
+					"translate": "desc.kleispack.cooldown",
+					"with": ["1"],
 					"color": "dark_green",
 					"italic": false
 				},

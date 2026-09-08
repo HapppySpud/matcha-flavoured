@@ -31,6 +31,7 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Heart Decrementing is now only local not global (Per player not per world, I made this imagining a small group of friends playing together. Not large servers, this change was made to help with that, difficulty is still set at 5 hearts, but since this can be changed I dont think its a big issue)
 - Opal Earrings now only give Conduit Power when in water (quick patch job probably needs optimisation)
 - Zephyr enchantment reworked so that its 3 levels (👥💻, freshdoktor)
+- Elegy of the Abbey and Crete updated to their new versions
 
 
 
@@ -74,6 +75,7 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Fortune now works on: Tomatoes, Glow berry vines, Chorus Plant (I think some of this was vanilla-intended, but I added it in regardless)
 - Warding's (✟ x) effects were inconsistent at various levels, this was fixed
 - Earrings no longer give knockback resistance
+- Elegy of the Abbe can no longer be crafted
 #### Lang
 - Warding Shield, Sword, Silver Sword now uses translate
 #### Recipe Unlocks Fixed
@@ -127,7 +129,6 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - Would minecraft:wake_up_from_sleep work as a marker?
 - Add credits for all the new commit things in github
 - Check if warding enchants still used, and if so replace undead tag with warding targets tag
-- Add Topaz night vision
 - Poplar leaves crafting needs to be added to adv
 - The Advancements for the special elytras currently dont trigger on intem in inventory/wearing the item nor crafting either of the items?
 - if you GAINED max hearts between achievements it thinks you've lost yet another heart.
@@ -137,7 +138,7 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - When running on mud brick slabs with traversal boots, when I jump I get the speed boost, but when I just run on it normally I don't get the speed boost
 - Villager Gift LT (Toolsmith give stone tools, laaame)
 - OAK LEAF and dark oak fortune and apple drop LT not updated
-- Bamboo PLanks still not craftable?
+- Add Silver to Deep Dark
 
 
 ### Electrum

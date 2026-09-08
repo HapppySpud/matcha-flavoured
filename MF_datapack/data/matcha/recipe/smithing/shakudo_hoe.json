@@ -30,17 +30,20 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 9",
+					"translate": "desc.kleispack.mining_speed",
+					"with": ["9"],
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 1",
+					"translate": "desc.kleispack.attack_damage",
+					"with": ["1"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 4",
+					"translate": "desc.kleispack.cooldown",
+					"with": ["4"],
 					"color": "dark_green",
 					"italic": false
 				},

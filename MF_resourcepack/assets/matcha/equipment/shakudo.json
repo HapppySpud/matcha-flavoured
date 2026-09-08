@@ -2,17 +2,17 @@
 	"layers": {
 		"humanoid": [
 			{
-				"texture": "minecraft:shakudo"
+				"texture": "matcha:shakudo"
 			}
 		],
 		"humanoid_leggings": [
 			{
-				"texture": "minecraft:shakudo"
+				"texture": "matcha:shakudo"
 			}
 		],
 		"horse_body": [
 			{
-				"texture": "minecraft:shakudo"
+				"texture": "matcha:shakudo"
 			}
 		]
 	}
