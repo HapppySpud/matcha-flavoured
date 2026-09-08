@@ -57,7 +57,9 @@
           }
         },
         "item": {
-          "items": "axolotl"
+		  "components": {
+            "minecraft:item_model": "matcha:axolotl"
+		  }
         }
       }
     }
