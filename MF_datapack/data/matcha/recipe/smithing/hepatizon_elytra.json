@@ -1,19 +1,21 @@
 {
 	"type": "minecraft:smithing_transform",
 	"addition": "minecraft:phantom_membrane",
-	"base": "minecraft:copper_leggings",
+	"base": "minecraft:elytra",
 	"result": {
-		"id": "minecraft:copper_leggings",
+		"id": "minecraft:elytra",
 		"components": {
-			"minecraft:max_damage": 500,
+			"minecraft:max_damage": 800,
 			"minecraft:lore": [
 				{
-					"text": "🛡 6",
+					"translate": "desc.kleispack.armour",
+					"with": ["1"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🏃 +0.01",
+					"translate": "desc.kleispack.speed_attribute",
+					"with": ["+0.02"],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -23,29 +25,34 @@
 					"italic": false
 				},
 				{
+					"translate": "block.minecraft.honeycomb_block",
+					"color": "dark_gray",
+					"italic": false
+				},
+				{
 					"translate": "block.minecraft.copper_block",
 					"color": "dark_gray",
 					"italic": false
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_leggings",
+				"translate": "item.kleispack.hepatizon_elytra",
 				"color": "#ac7b5c"
 			},
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:movement_speed",
-					"id": "bronze_leggings",
-					"amount": 0.01,
+					"id": "hepatizon_elytra",
+					"amount": 0.02,
 					"operation": "add_value",
-					"slot": "legs"
+					"slot": "chest"
 				},
 				{
 					"type": "minecraft:armor",
-					"id": "minecraft:armor.leggings",
-					"amount": 6,
+					"id": "minecraft:armor.chestplate",
+					"amount": 1,
 					"operation": "add_value",
-					"slot": "legs"
+					"slot": "chest"
 				}
 			],
 			"minecraft:tooltip_display": {
@@ -54,13 +61,14 @@
 				]
 			},
 			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_model": "matcha:bronze_leggings",
+			"minecraft:item_model": "matcha:hepatizon_elytra",
 			"minecraft:equippable": {
-				"slot": "legs",
-				"asset_id": "minecraft:bronze"
+				"slot": "chest",
+				"asset_id": "matcha:hepatizon_elytra"
 			},
 			"minecraft:repairable": {
 				"items": [
+					"minecraft:honeycomb_block",
 					"minecraft:copper_block"
 				]
 			}

@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "trim_colour",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:iron_ingot",
+		"C": "minecraft:oxidized_copper",
+		"S": "minecraft:resin_brick"
+	},
+	"pattern": [
+		"#S#",
+		"#C#",
+		"###"
+	],
+	"result": {
+		"components": {
+			"minecraft:item_model": "matcha:trim_colour_patina",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.trim_colour"
+			},
+			"minecraft:provides_trim_material": "minecraft:emerald",
+			"minecraft:rarity": "uncommon",
+			"minecraft:lore": [
+				{
+					"translate": "trim_material.minecraft.emerald",
+					"color": "gray",
+					"italic": false
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:poisonous_potato"
+	}
+}

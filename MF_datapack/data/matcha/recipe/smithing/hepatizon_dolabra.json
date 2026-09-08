@@ -1,40 +1,59 @@
 {
 	"type": "minecraft:smithing_transform",
 	"addition": "minecraft:phantom_membrane",
-	"base": "minecraft:copper_shovel",
+	"base": "minecraft:copper_axe",
 	"result": {
-		"id": "minecraft:stone_shovel",
+		"id": "minecraft:stone_axe",
 		"components": {
 			"minecraft:max_damage": 1000,
 			"minecraft:tool": {
 				"rules": [
 					{
-						"blocks": "#minecraft:mineable/shovel",
-						"speed": 20,
+						"blocks": "#minecraft:mineable/axe",
+						"speed": 15,
+						"correct_for_drops": true
+					},
+					{
+						"blocks": "#minecraft:mineable/pickaxe",
+						"speed": 15,
 						"correct_for_drops": true
 					}
 				],
 				"default_mining_speed": 1,
 				"damage_per_block": 1
 			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.hepatizon_dolabra",
+				"color": "#ac7b5c"
+			},
+			"minecraft:item_model": "matcha:hepatizon_dolabra",
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 20",
+					"translate": "desc.kleispack.mining_speed",
+					"with": ["15"],
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 5",
+					"translate": "desc.kleispack.attack_damage",
+					"with": ["7"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1",
+					"translate": "desc.kleispack.cooldown",
+					"with": ["1"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🏃 +0.005",
+					"translate": "desc.kleispack.speed_attribute",
+					"with": ["+0.005"],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -49,17 +68,14 @@
 					"italic": false
 				}
 			],
-			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_shovel",
-				"color": "#ac7b5c"
-			},
-			"minecraft:item_model": "matcha:bronze_shovel",
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			},
 			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 6,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
 				{
 					"type": "minecraft:attack_speed",
 					"id": "attack_speed",
@@ -68,16 +84,9 @@
 					"slot": "mainhand"
 				},
 				{
-					"type": "minecraft:attack_damage",
-					"id": "attack_damage",
-					"amount": 4,
-					"operation": "add_value",
-					"slot": "mainhand"
-				},
-				{
 					"type": "minecraft:movement_speed",
-					"id": "bronze_sword",
-					"amount": 0.0055,
+					"id": "hepatizon_dolabra",
+					"amount": 0.005,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
@@ -88,5 +97,6 @@
 				]
 			}
 		}
-	}
+	},
+	"template": "minecraft:netherite_upgrade_smithing_template"
 }

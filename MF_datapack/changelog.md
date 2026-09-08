@@ -22,9 +22,11 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Enderman can only pick up melon, pumpkins, and TNT (💻, Linkershim)
 - Multiplayer support improvements! (💻, Linkershim)
 - Trim Colours added
-    * Yet to add: Patina (green), Electrum, Shakudo, Hepatizon
+    * Yet to add: Electrum, Shakudo, Hepatizon, Silver
+    * If you have better textures send them to the github, I ran out of ideas for these
 - Buffed Sturdy Leather's Safe Fall Distance (1 -> 2)
 - Sturdy Leather can now be repaired with tattered leather
+- Sturdy Leather Boots now have a step height intrinsic (👥)
 - Feather Falling is better now (base damage reduction 12% -> 24%; max damage reduction 48% -> 72%)
 - Heart Decrementing is now only local not global (Per player not per world, I made this imagining a small group of friends playing together. Not large servers, this change was made to help with that, difficulty is still set at 5 hearts, but since this can be changed I dont think its a big issue)
 - Opal Earrings now only give Conduit Power when in water (quick patch job probably needs optimisation)

@@ -10,46 +10,35 @@
 				"rules": [
 					{
 						"blocks": "#minecraft:mineable/hoe",
-						"speed": 15,
-						"correct_for_drops": true
-					},
-					{
-						"blocks": "#minecraft:mineable/shovel",
-						"speed": 15,
+						"speed": 20,
 						"correct_for_drops": true
 					}
 				],
 				"default_mining_speed": 1,
 				"damage_per_block": 1
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_mattock",
-				"color": "#ac7b5c"
-			},
-			"minecraft:item_model": "matcha:bronze_mattock",
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 15",
+					"translate": "desc.kleispack.mining_speed",
+					"with": ["20"],
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 3.5",
+					"translate": "desc.kleispack.attack_damage",
+					"with": ["1"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 3",
+					"translate": "desc.kleispack.cooldown",
+					"with": ["4"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🏃 +0.01",
+					"translate": "desc.kleispack.speed_attribute",
+					"with": ["+0.005"],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -64,35 +53,30 @@
 					"italic": false
 				}
 			],
+			"minecraft:item_name": {
+				"translate": "item.kleispack.hepatizon_hoe",
+				"color": "#ac7b5c"
+			},
+			"minecraft:item_model": "matcha:hepatizon_hoe",
 			"minecraft:attribute_modifiers": [
 				{
-					"type": "minecraft:attack_damage",
-					"id": "attack_damage",
-					"amount": 2,
-					"operation": "add_value",
-					"slot": "mainhand"
-				},
-				{
-					"type": "minecraft:attack_speed",
-					"id": "attack_speed",
-					"amount": -1,
-					"operation": "add_value",
-					"slot": "mainhand"
-				},
-				{
 					"type": "minecraft:movement_speed",
-					"id": "bronze_mattock",
-					"amount": 0.01,
+					"id": "hepatizon_sword",
+					"amount": 0.0055,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
 			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
 			"minecraft:repairable": {
 				"items": [
 					"minecraft:copper_block"
 				]
 			}
 		}
-	},
-	"template": "minecraft:netherite_upgrade_smithing_template"
+	}
 }

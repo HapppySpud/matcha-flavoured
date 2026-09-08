@@ -1,40 +1,21 @@
 {
 	"type": "minecraft:smithing_transform",
 	"addition": "minecraft:phantom_membrane",
-	"base": "minecraft:copper_hoe",
+	"base": "minecraft:copper_leggings",
 	"result": {
-		"id": "minecraft:stone_hoe",
+		"id": "minecraft:copper_leggings",
 		"components": {
-			"minecraft:max_damage": 1000,
-			"minecraft:tool": {
-				"rules": [
-					{
-						"blocks": "#minecraft:mineable/hoe",
-						"speed": 20,
-						"correct_for_drops": true
-					}
-				],
-				"default_mining_speed": 1,
-				"damage_per_block": 1
-			},
+			"minecraft:max_damage": 500,
 			"minecraft:lore": [
 				{
-					"text": "⛏ 20",
-					"color": "blue",
-					"italic": false
-				},
-				{
-					"text": "🗡 1",
+					"translate": "desc.kleispack.armour",
+					"with": ["6"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 4",
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"text": "🏃 +0.005",
+					"translate": "desc.kleispack.speed_attribute",
+					"with": ["+0.01"],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -50,23 +31,35 @@
 				}
 			],
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_hoe",
+				"translate": "item.kleispack.hepatizon_leggings",
 				"color": "#ac7b5c"
 			},
-			"minecraft:item_model": "matcha:bronze_hoe",
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:movement_speed",
-					"id": "bronze_sword",
-					"amount": 0.0055,
+					"id": "hepatizon_leggings",
+					"amount": 0.01,
 					"operation": "add_value",
-					"slot": "mainhand"
+					"slot": "legs"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "minecraft:armor.leggings",
+					"amount": 6,
+					"operation": "add_value",
+					"slot": "legs"
 				}
 			],
 			"minecraft:tooltip_display": {
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
 				]
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_model": "matcha:hepatizon_leggings",
+			"minecraft:equippable": {
+				"slot": "legs",
+				"asset_id": "matcha:hepatizon"
 			},
 			"minecraft:repairable": {
 				"items": [

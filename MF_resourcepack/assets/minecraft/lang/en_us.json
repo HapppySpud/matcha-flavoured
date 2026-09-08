@@ -1148,5 +1148,9 @@
   "desc.kleispack.knockback_resistance": "\uE023 %s",
   "enchantment.kleispack.adamant_armour": "\uE041 3",
   "enchantment.kleispack.adamant_armour.set_bonus": "  \uE042 4",
-  "enchantment.kleispack.adamant_weapon": "\uE017"
+  "enchantment.kleispack.adamant_weapon": "\uE017",
+  "desc.kleispack.speed_attribute": "\uE022 %s",
+  "item.kleispack.hepatizon_boots": "Hepatizon Boots",
+  "desc.kleispack.fall_height_attribute": "\uE027 %s",
+  "desc.kleispack.step_height": "\uE00A %s"
 }

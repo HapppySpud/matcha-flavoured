@@ -7,10 +7,10 @@
 		"components": {
 			"minecraft:max_damage": 1000,
 			"minecraft:item_name": {
-				"translate": "item.kleispack.bronze_sword",
+				"translate": "item.kleispack.hepatizon_sword",
 				"color": "#ac7b5c"
 			},
-			"minecraft:item_model": "matcha:bronze_sword",
+			"minecraft:item_model": "matcha:hepatizon_sword",
 			"minecraft:attribute_modifiers": [
 				{
 					"type": "minecraft:attack_speed",
@@ -28,7 +28,7 @@
 				},
 				{
 					"type": "minecraft:movement_speed",
-					"id": "bronze_sword",
+					"id": "hepatizon_sword",
 					"amount": 0.0105,
 					"operation": "add_value",
 					"slot": "mainhand"
@@ -36,17 +36,20 @@
 			],
 			"minecraft:lore": [
 				{
-					"text": "🗡 6",
+					"translate": "desc.kleispack.attack_damage",
+					"with": ["6"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.9",
+					"translate": "desc.kleispack.cooldown",
+					"with": ["1.9"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🏃 +0.01",
+					"translate": "desc.kleispack.speed_attribute",
+					"with": ["+0.01"],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -70,7 +73,7 @@
                 "has_intrinsic_enchants": 1
 			},
 			"minecraft:stored_enchantments": {
-				"main:riposte": 1
+				"matcha:riposte": 2
 			},
 			"minecraft:repairable": {
 				"items": [

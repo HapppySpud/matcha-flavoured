@@ -2,7 +2,7 @@
   "layers": {
     "wings": [
       {
-        "texture": "minecraft:bronze_elytra",
+        "texture": "matcha:hepatizon_elytra",
         "use_player_texture": false
       }
     ]

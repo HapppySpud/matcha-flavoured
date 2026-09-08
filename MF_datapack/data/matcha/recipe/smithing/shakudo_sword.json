@@ -32,17 +32,19 @@
 			},
 			"minecraft:stored_enchantments": {
 				"minecraft:sweeping_edge": 1,
-				"main:sanguine": 1
+				"matcha:shakudo_weapon": 1
 			},
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:lore": [
 				{
-					"text": "🗡 6",
+					"translate": "desc.kleispack.attack_damage",
+					"with": ["6"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.6",
+					"translate": "desc.kleispack.cooldown",
+					"with": ["1.6"],
 					"color": "dark_green",
 					"italic": false
 				},
