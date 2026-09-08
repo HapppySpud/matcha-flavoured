@@ -19,7 +19,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-                                "minecraft:item_model": "minecraft:pickled_carrots",
+                                "minecraft:item_model": "matcha:pickled_carrots",
                                 "minecraft:item_name": {
                                     "translate": "item.kleispack.pickled_carrots"
                                 },
@@ -77,5 +77,5 @@
 			]
 		}
 	],
-	"random_sequence": "minecraft:kleis_items"
+	"random_sequence": "matcha:kleis_items"
 }

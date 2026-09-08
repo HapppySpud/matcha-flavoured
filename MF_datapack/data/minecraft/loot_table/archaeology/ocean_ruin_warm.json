@@ -47,7 +47,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:damage": 140,
-								"minecraft:item_model": "minecraft:rusty_axe",
+								"minecraft:item_model": "matcha:rusty_axe",
 								"minecraft:item_name": "Rusty Axe",
 								"minecraft:lore": [
 									{

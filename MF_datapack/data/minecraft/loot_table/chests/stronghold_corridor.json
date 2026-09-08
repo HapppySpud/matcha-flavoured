@@ -107,7 +107,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:kleis_items/divine_fragment",
+					"value": "matcha:kleis_items/divine_fragment",
 					"weight": 1
 				},
 				{
@@ -118,7 +118,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:jukebox_playable": "matcha:labyrinthine",
-								"minecraft:item_model": "minecraft:music_disc_labyrinthine"
+								"minecraft:item_model": "matcha:music_disc_labyrinthine"
 							}
 						}
 					]

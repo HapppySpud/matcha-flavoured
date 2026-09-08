@@ -45,7 +45,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "minecraft:sulfur_goo",
+								"minecraft:item_model": "matcha:sulfur_goo",
 								"minecraft:item_name": {
 									"translate": "item.kleispack.sulfur_goo"
 								}

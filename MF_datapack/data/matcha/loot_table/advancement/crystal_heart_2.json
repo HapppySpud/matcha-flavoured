@@ -12,7 +12,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "minecraft:heart_container",
+								"minecraft:item_model": "matcha:heart_container",
 								"minecraft:item_name": {
 									"translate": "item.kleispack.crystal_heart"
 								},

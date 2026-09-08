@@ -12,7 +12,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "minecraft:ruby",
+								"minecraft:item_model": "matcha:ruby",
 								"minecraft:item_name": {
 									"translate": "item.kleispack.ruby",
 									"color": "red"
@@ -24,5 +24,5 @@
 			]
 		}
 	],
-	"random_sequence": "minecraft:kleis_items"
+	"random_sequence": "matcha:kleis_items"
 }

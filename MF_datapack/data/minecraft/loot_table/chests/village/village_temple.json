@@ -85,17 +85,17 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:kleis_items/tanakh",
+					"value": "matcha:kleis_items/tanakh",
 					"weight": 1
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:kleis_items/avesta",
+					"value": "matcha:kleis_items/avesta",
 					"weight": 1
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:kleis_items/quran",
+					"value": "matcha:kleis_items/quran",
 					"weight": 1
 				}
 			]
