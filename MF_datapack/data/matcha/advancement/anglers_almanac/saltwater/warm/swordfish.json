@@ -1,5 +1,5 @@
 {
-  "parent": "matcha:fishers_almanac/saltwater/warm/flounder",
+  "parent": "matcha:anglers_almanac/saltwater/warm/flounder",
   "display": {
     "icon": {
       "id": "salmon",
@@ -12,18 +12,18 @@
     },
     "description": [
       {
-        "translate": "fish.fishing.swordfish.desc",
+        "translate": "adv.kleispack.anglers_almanac.swordfish.desc",
         "color": "dark_aqua",
         "italic": true
       },
       "\n",
       {
-        "translate": "adv.fishing.rarity.4",
+        "translate": "adv.kleispack.fishing.rarity.4",
         "italic": false
       },
       "\n",
       {
-        "translate": "adv.fishing.chance",
+        "translate": "adv.kleispack.anglers_almanac.chance",
         "with": ["2.4%"],
         "color": "gray",
         "italic": false
@@ -40,7 +40,7 @@
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "matcha:fishers_almanac/root": true
+              "matcha:anglers_almanac/root": true
             }
           }
         },

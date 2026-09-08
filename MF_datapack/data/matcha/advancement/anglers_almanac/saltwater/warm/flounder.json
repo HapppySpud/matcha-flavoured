@@ -1,5 +1,5 @@
 {
-  "parent": "matcha:fishers_almanac/saltwater/warm/gurnard",
+  "parent": "matcha:anglers_almanac/saltwater/warm/gurnard",
   "display": {
     "icon": {
       "id": "salmon",
@@ -12,18 +12,18 @@
     },
     "description": [
       {
-        "translate": "fish.fishing.flounder.desc",
+        "translate": "adv.kleispack.anglers_almanac.flounder.desc",
         "color": "dark_aqua",
         "italic": true
       },
       "\n",
       {
-        "translate": "adv.fishing.rarity.3",
+        "translate": "adv.kleispack.fishing.rarity.3",
         "italic": false
       },
       "\n",
       {
-        "translate": "adv.fishing.chance",
+        "translate": "adv.kleispack.anglers_almanac.chance",
         "with": ["7.1%"],
         "color": "gray",
         "italic": false
@@ -40,7 +40,7 @@
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "matcha:fishers_almanac/root": true
+              "matcha:anglers_almanac/root": true
             }
           }
         },

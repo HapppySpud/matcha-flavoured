@@ -1,5 +1,5 @@
 {
-  "parent": "matcha:fishers_almanac/root",
+  "parent": "matcha:anglers_almanac/root",
   "display": {
     "icon": {
       "id": "brain_coral",
@@ -29,7 +29,7 @@
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "matcha:fishers_almanac/root": true
+              "matcha:anglers_almanac/root": true
             }
           }
         }
