@@ -4,7 +4,7 @@
     "icon": {
       "id": "cod",
       "components": {
-        "minecraft:item_model": "match:echo_fish"
+        "minecraft:item_model": "matcha:echo_fish"
       }
     },
     "title": {
@@ -48,7 +48,7 @@
         },
         "item": {
           "components": {
-            "minecraft:item_model": "match:matcha:echo_fish"
+            "minecraft:item_model": "matcha:echo_fish"
           }
         }
       }
