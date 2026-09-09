@@ -24,6 +24,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:sound_fx/frog"
+		"function": "matcha:sound_fx/frog"
 	}
 }

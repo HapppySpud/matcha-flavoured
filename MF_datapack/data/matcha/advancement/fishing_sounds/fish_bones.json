@@ -15,6 +15,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:sound_fx/fish_bones"
+		"function": "matcha:sound_fx/fish_bones"
 	}
 }

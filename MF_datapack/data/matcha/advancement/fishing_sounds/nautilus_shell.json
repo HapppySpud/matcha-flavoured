@@ -15,6 +15,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:sound_fx/nautilus_shell"
+		"function": "matcha:sound_fx/nautilus_shell"
 	}
 }

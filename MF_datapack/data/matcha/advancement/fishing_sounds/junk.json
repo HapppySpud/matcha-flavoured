@@ -114,6 +114,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:sound_fx/junk"
+		"function": "matcha:sound_fx/junk"
 	}
 }
