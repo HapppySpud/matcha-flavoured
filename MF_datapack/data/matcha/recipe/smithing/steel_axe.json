@@ -48,7 +48,7 @@
 					"italic": false
 				},
 				{
-					"translate": "block.minecraft.iron_ingot",
+					"translate": "item.minecraft.iron_ingot",
 					"color": "dark_gray",
 					"italic": false
 				}

@@ -25,9 +25,6 @@
         "translate": "adv.kleispack.anglers_almanac.only_in",
         "extra": [
           {
-            "text": ": "
-          },
-          {
             "translate": "biome.minecraft.swamp"
           },
           ", ",

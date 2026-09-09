@@ -1,5 +1,5 @@
 {
-  "parent": "matcha:fishers_almanac/saltwater/warm/tropical_fish",
+  "parent": "matcha:anglers_almanac/saltwater/warm/tropical_fish",
   "display": {
     "icon": {
       "id": "cod",
@@ -12,18 +12,18 @@
     },
     "description": [
       {
-        "translate": "fish.fishing.rainbow_wrasse.desc",
+        "translate": "adv.kleispack.anglers_almanac.rainbow_wrasse.desc",
         "color": "dark_aqua",
         "italic": true
       },
       "\n",
       {
-        "translate": "adv.fishing.rarity.1",
+        "translate": "adv.kleispack.fishing.rarity.1",
         "italic": false
       },
       "\n",
       {
-        "translate": "adv.fishing.chance",
+        "translate": "adv.kleispack.anglers_almanac.chance",
         "with": ["35.7%"],
         "color": "gray",
         "italic": false
@@ -40,7 +40,7 @@
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "matcha:fishers_almanac/root": true
+              "matcha:anglers_almanac/root": true
             }
           }
         },
