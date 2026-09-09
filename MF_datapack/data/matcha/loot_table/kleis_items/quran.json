@@ -19,10 +19,10 @@
 								},
 								"minecraft:rarity": "rare",
 								"minecraft:max_stack_size": 64,
-								"minecraft:item_model": "minecraft:quran",
+								"minecraft:item_model": "matcha:quran",
 								"minecraft:lore": [
 									{
-										"text": "القرآن",
+										"translate": "item.kleispack.quran.desc",
 										"color": "gray",
 										"italic": false
 									}
@@ -34,5 +34,5 @@
 			]
 		}
 	],
-	"random_sequence": "minecraft:kleis_items"
+	"random_sequence": "matcha:kleis_items"
 }

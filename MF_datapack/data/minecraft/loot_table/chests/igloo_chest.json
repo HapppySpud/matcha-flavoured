@@ -24,7 +24,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "minecraft:tallow",
+								"minecraft:item_model": "matcha:tallow",
 								"minecraft:item_name": {
 									"translate": "item.kleispack.tallow"
 								}

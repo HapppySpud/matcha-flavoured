@@ -1,10 +1,10 @@
 {
 	"parent": "matcha:end/elytra",
 	"criteria": {
-		"bronze_elytra": {
+		"hepatizon_elytra": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "smithing_table:bronze_elytra"
+				"recipe_id": "matcha:smithing/hepatizon_elytra"
 			}
 		}
 	},
@@ -21,7 +21,7 @@
 		],
 		"icon": {
 			"components": {
-				"minecraft:item_model": "minecraft:bronze_elytra"
+				"minecraft:item_model": "matcha:hepatizon_elytra"
 			},
 			"count": 1,
 			"id": "minecraft:elytra"
@@ -34,7 +34,7 @@
 	},
 	"requirements": [
 		[
-			"bronze_elytra"
+			"hepatizon_elytra"
 		]
 	],
     "rewards": {

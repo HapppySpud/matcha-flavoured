@@ -19,7 +19,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-                                "minecraft:item_model": "minecraft:apple_empanada",
+                                "minecraft:item_model": "matcha:apple_empanada",
                                 "minecraft:item_name": {
                                     "translate": "item.kleispack.apple_empanada"
                                 },
@@ -74,5 +74,5 @@
 			]
 		}
 	],
-	"random_sequence": "minecraft:kleis_items"
+	"random_sequence": "matcha:kleis_items"
 }

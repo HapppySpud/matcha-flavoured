@@ -19,7 +19,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-                                "minecraft:item_model": "minecraft:bruschetta",
+                                "minecraft:item_model": "matcha:bruschetta",
                                 "minecraft:item_name": {
                                     "translate": "item.kleispack.bruschetta"
                                 },
@@ -75,5 +75,5 @@
 			]
 		}
 	],
-	"random_sequence": "minecraft:kleis_items"
+	"random_sequence": "matcha:kleis_items"
 }

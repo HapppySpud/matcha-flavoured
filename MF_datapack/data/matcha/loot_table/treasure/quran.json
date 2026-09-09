@@ -21,7 +21,7 @@
 								"minecraft:item_model": "matcha:quran",
 								"minecraft:lore": [
 									{
-										"text": "القرآن",
+										"translate": "item.kleispack.quran.desc",
 										"color": "gray",
 										"italic": false
 									}

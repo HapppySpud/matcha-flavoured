@@ -58,11 +58,11 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:kleis_items/amber"
+					"value": "matcha:kleis_items/amber"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:archaeology/statues"
+					"value": "matcha:archaeology/statues"
 				}
 			],
 			"rolls": 1

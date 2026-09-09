@@ -33,7 +33,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:kleis_items/gnocchi_recipe",
+					"value": "matcha:kleis_items/gnocchi_recipe",
 					"weight": 5
 				}
 			],

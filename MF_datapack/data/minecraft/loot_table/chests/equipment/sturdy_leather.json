@@ -48,7 +48,7 @@
 								"minecraft:enchantments": {
 									"minecraft:projectile_protection": 3
 								},
-								"minecraft:item_model": "minecraft:sturdy_leather_helmet",
+								"minecraft:item_model": "matcha:sturdy_leather_helmet",
 								"minecraft:equippable": {
 									"slot": "head",
 									"asset_id": "minecraft:sturdy_leather"
@@ -110,7 +110,7 @@
 								"minecraft:enchantments": {
 									"minecraft:projectile_protection": 4
 								},
-								"minecraft:item_model": "minecraft:sturdy_leather_chestplate",
+								"minecraft:item_model": "matcha:sturdy_leather_chestplate",
 								"minecraft:equippable": {
 									"slot": "chest",
 									"asset_id": "minecraft:sturdy_leather"
@@ -172,7 +172,7 @@
 								"minecraft:enchantments": {
 									"minecraft:projectile_protection": 3
 								},
-								"minecraft:item_model": "minecraft:sturdy_leather_leggings",
+								"minecraft:item_model": "matcha:sturdy_leather_leggings",
 								"minecraft:equippable": {
 									"slot": "legs",
 									"asset_id": "minecraft:sturdy_leather"
@@ -236,7 +236,7 @@
 									"minecraft:feather_falling": 3,
 									"matcha:traversal": 1
 								},
-								"minecraft:item_model": "minecraft:sturdy_leather_boots",
+								"minecraft:item_model": "matcha:sturdy_leather_boots",
 								"minecraft:equippable": {
 									"slot": "feet",
 									"asset_id": "minecraft:sturdy_leather"

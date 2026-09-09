@@ -14,7 +14,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-                                "minecraft:item_model": "minecraft:gnocchi_recipe",
+                                "minecraft:item_model": "matcha:gnocchi_recipe",
                                 "minecraft:item_name": {
                                     "translate": "item.kleispack.cooking_recipe"
                                 },
@@ -32,5 +32,5 @@
 			]
 		}
 	],
-	"random_sequence": "minecraft:kleis_items"
+	"random_sequence": "matcha:kleis_items"
 }
