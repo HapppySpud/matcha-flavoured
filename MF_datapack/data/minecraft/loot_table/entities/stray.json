@@ -84,11 +84,6 @@
 							}
 						}
 					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:emerald",
-					"conditions": []
 				}
 			],
 			"conditions": [

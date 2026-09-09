@@ -21,15 +21,6 @@
 					}
 				}
 			],
-			"conditions": [
-				{
-					"block": "minecraft:cave_vines",
-					"condition": "minecraft:block_state_property",
-					"properties": {
-						"berries": "true"
-					}
-				}
-			],
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
