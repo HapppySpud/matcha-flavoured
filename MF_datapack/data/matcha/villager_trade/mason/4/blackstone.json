@@ -12,7 +12,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.trade.bulk_blackstone"
 			},
-			"minecraft:item_model": "minecraft:blackstone",
+			"minecraft:item_model": "matcha:bulk_blackstone",
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.trade.bulk_blackstone.desc",

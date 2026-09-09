@@ -12,7 +12,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.trade.bulk_smooth_basalt"
 			},
-			"minecraft:item_model": "minecraft:smooth_basalt",
+			"minecraft:item_model": "matcha:bulk_smooth_basalt",
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.trade.bulk_smooth_basalt.desc",

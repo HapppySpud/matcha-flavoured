@@ -12,7 +12,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.trade.bulk_smooth_quartz"
 			},
-			"minecraft:item_model": "minecraft:smooth_quartz",
+			"minecraft:item_model": "matcha:bulk_smooth_quartz",
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.trade.bulk_smooth_quartz.desc",

@@ -12,7 +12,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.trade.bulk_prismarine"
 			},
-			"minecraft:item_model": "minecraft:prismarine",
+			"minecraft:item_model": "matcha:bulk_malachite",
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.trade.bulk_prismarine.desc",

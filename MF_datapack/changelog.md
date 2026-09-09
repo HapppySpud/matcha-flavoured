@@ -32,6 +32,8 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Opal Earrings now only give Conduit Power when in water (quick patch job probably needs optimisation)
 - Zephyr enchantment reworked so that its 3 levels (👥💻, freshdoktor)
 - Elegy of the Abbey and Crete updated to their new versions
+- Bulk Dirt added to Mason Trade
+- Bulk Blocks now have distinct models
 
 
 
