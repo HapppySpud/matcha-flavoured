@@ -62,6 +62,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:sound_fx/treasure"
+		"function": "matcha:sound_fx/treasure"
 	}
 }

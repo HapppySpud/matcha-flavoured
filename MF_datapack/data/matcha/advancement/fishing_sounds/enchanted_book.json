@@ -15,6 +15,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:sound_fx/book"
+		"function": "matcha:sound_fx/book"
 	}
 }

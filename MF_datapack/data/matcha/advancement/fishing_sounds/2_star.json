@@ -116,6 +116,6 @@
 		]
 	],
 	"rewards": {
-		"function": "main:sound_fx/2_star"
+		"function": "matcha:sound_fx/2_star"
 	}
 }
