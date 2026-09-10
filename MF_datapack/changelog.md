@@ -109,6 +109,13 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 
 # Scoreboards to be removed
 - apotropaic
+scoreboard players add copper_age Hearts 0
+scoreboard players add iron_age Hearts 0
+scoreboard players add diamond_age Hearts 0
+scoreboard players add nether_age Hearts 0
+scoreboard players add electrum_age Hearts 0
+scoreboard players add netherite_age Hearts 0
+scoreboard players add end_age Hearts 0
 
 # on_first_load
 - Use a scoreboard to determine if its really the first load
@@ -126,8 +133,10 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - Change Electrum?
 
 # DOCKET
-- Shepherds shear need "repaired with"
 - Steel Equip not done
+- Shepherd animal models (porb farmer then too)
+- Shepherds shear need "repaired with"
+- Villager summoning no longer makes particles
 
 # BUGS
 - Update Abbey LT to have the good Abbey disc

@@ -15,9 +15,6 @@ scoreboard objectives add Hunger food
 scoreboard objectives add HealthPoints health
 scoreboard objectives add deaths deathCount
 scoreboard players set 1 deaths 1
-scoreboard objectives add Hearts dummy
-scoreboard players add @a Hearts 0
-scoreboard players set @a[scores={Hearts=0}] Hearts 20
 
 # Setup "minimum_hearts" scoreboard
 scoreboard objectives add minimum_hearts dummy
@@ -25,19 +22,12 @@ scoreboard players add @a minimum_hearts 0
 
 # Setup "Hearts" scoreboard
 scoreboard objectives add Hearts dummy
-scoreboard players add @a Hearts 20
+scoreboard players add @a Hearts 0
 scoreboard players set @a[scores={Hearts=0}] Hearts 20
 scoreboard players add current_minimum_hearts Hearts 0
 scoreboard players set minimum_normal_hearts Hearts 12
 scoreboard players set minimum_hard_hearts Hearts 6
 scoreboard players set maximum_hearts Hearts 60
-scoreboard players add copper_age Hearts 0
-scoreboard players add iron_age Hearts 0
-scoreboard players add diamond_age Hearts 0
-scoreboard players add nether_age Hearts 0
-scoreboard players add electrum_age Hearts 0
-scoreboard players add netherite_age Hearts 0
-scoreboard players add end_age Hearts 0
 
 # players' sleepTimer data value, and several other variables
 # related to sleeping stored in fake players
