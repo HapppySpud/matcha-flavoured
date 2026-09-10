@@ -78,6 +78,7 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Warding's (✟ x) effects were inconsistent at various levels, this was fixed
 - Earrings no longer give knockback resistance
 - Elegy of the Abbe can no longer be crafted
+- Shakudo Elytra Bonus was not working (not sure how this was deleted)
 #### Lang
 - Warding Shield, Sword, Silver Sword now uses translate
 #### Recipe Unlocks Fixed
@@ -124,6 +125,10 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - Make Phantom Membrane spawn egg
 - Change Electrum?
 
+# DOCKET
+- Shepherds shear need "repaired with"
+- Steel Equip not done
+
 # BUGS
 - Update Abbey LT to have the good Abbey disc
 - Didn't update Pack mcmeta
@@ -134,8 +139,6 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - Poplar leaves crafting needs to be added to adv
 - The Advancements for the special elytras currently dont trigger on intem in inventory/wearing the item nor crafting either of the items?
 - if you GAINED max hearts between achievements it thinks you've lost yet another heart.
-- Change freezing water to use on surface predicate
-- Abbey background track frquency too high? (It should be the same rate as everything else)
 - Add predicate for surface spawn that excludes structures
 - When running on mud brick slabs with traversal boots, when I jump I get the speed boost, but when I just run on it normally I don't get the speed boost
 - Villager Gift LT (Toolsmith give stone tools, laaame)
