@@ -14,6 +14,10 @@ scoreboard players set 45 sneaking 45
 scoreboard objectives add Hunger food
 scoreboard objectives add HealthPoints health
 scoreboard objectives add deaths deathCount
+scoreboard players set 1 deaths 1
+scoreboard objectives add Hearts dummy
+scoreboard players add @a Hearts 0
+scoreboard players set @a[scores={Hearts=0}] Hearts 20
 
 # Setup "minimum_hearts" scoreboard
 scoreboard objectives add minimum_hearts dummy
