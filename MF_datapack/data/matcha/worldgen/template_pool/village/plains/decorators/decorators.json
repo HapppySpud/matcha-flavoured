@@ -1,0 +1,15 @@
+{
+	"name": "matcha:village/plains/decorators/decorators",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "matcha:village/plains/decorators/well_small",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

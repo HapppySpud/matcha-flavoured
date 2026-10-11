@@ -1,0 +1,40 @@
+{
+	"name": "matcha:village/plains/buildings/town_centers",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 100,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "matcha:village/plains/buildings/dungeon_well_1",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -31
+						}
+					]
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "matcha:village/plains/buildings/dungeon_well_2",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -31
+						}
+					]
+				}
+			}
+		}
+	]
+}
