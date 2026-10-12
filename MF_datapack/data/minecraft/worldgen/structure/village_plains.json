@@ -7,12 +7,12 @@
 	"step": "surface_structures",
 	"terrain_adaptation": "beard_box",
 	"spawn_overrides": {},
-	"start_pool": "matcha:village/plains/buildings/town_centers",
-	"size": 13,
+	"start_pool": "matcha:village/plains/town_centers",
+	"size": 5,
 	"start_height": {
 		"absolute": 0
 	},
 	"project_start_to_heightmap": "MOTION_BLOCKING_NO_LEAVES",
-	"max_distance_from_center": 116,
+	"max_distance_from_center": 64,
 	"use_expansion_hack": false
 }

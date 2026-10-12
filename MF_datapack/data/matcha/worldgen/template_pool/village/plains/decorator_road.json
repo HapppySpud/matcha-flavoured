@@ -1,13 +1,13 @@
 {
-	"name": "matcha:village/plains/entrance_roads",
+	"name": "matcha:village/plains/decorator_road",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
-			"weight": 2,
+			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "terrain_matching",
-				"location": "matcha:village/plains/roads/straight",
+				"location": "matcha:village/plains/roads/decorator",
 				"processors": "minecraft:empty"
 			}
 		}

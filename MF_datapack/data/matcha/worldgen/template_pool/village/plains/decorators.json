@@ -1,5 +1,5 @@
 {
-	"name": "matcha:village/plains/decorators/decorators",
+	"name": "matcha:village/plains/decorators",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

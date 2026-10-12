@@ -1,5 +1,5 @@
 {
-	"name": "matcha:village/plains/buildings/buildings",
+	"name": "matcha:village/plains/buildings",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
@@ -34,6 +34,24 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"location": "matcha:village/plains/buildings/house_4",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "matcha:village/plains/buildings/stables_1",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
 				"location": "matcha:village/plains/buildings/store_1",
 				"processors": "minecraft:empty"
 			}
@@ -44,6 +62,24 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "matcha:village/plains/buildings/windmill_1",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "matcha:village/plains/buildings/barn_1",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "matcha:village/plains/buildings/church_1",
 				"processors": "minecraft:empty"
 			}
 		}

@@ -1,5 +1,5 @@
 {
-	"name": "matcha:village/plains/buildings/town_centers",
+	"name": "matcha:village/plains/town_centers",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
