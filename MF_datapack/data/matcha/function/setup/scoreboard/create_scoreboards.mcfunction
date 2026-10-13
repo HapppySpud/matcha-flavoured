@@ -152,18 +152,18 @@ scoreboard players set #1000 update_item 1000
 # Used to detect when player joins the server
 scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
 
+
+# Animals ------
 # Cooldown for pigs dropping mushrooms
 scoreboard objectives add matcha.pig_gifting_cooldown dummy
-
 # Cooldown for chickens giving gifts
 scoreboard objectives add matcha.chicken_gifting_cooldown dummy
-
 # Used to play digging/play/pecking animations
 scoreboard objectives add matcha.digging_animation dummy
 scoreboard objectives add matcha.pig_play_animation dummy
-
 # Cooldown before muddy pigs become clean again
 scoreboard objectives add matcha.muddy_cooldown dummy
-
 # Timer before infant turns into a baby
 scoreboard objectives add matcha.infant_age dummy
+# Cooldown for cows eating grass
+scoreboard objectives add matcha.cow_eating_cooldown dummy
