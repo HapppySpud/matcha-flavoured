@@ -15,7 +15,10 @@
 								"translate": "item.kleispack.topaz",
 								"color": "yellow"
 							},
-							"!minecraft:consumable": {}
+							"!minecraft:consumable": {},
+							"minecraft:custom_data": {
+								"version": 1
+							}
 						}
 					}
 				}

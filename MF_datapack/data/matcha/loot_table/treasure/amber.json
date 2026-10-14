@@ -15,7 +15,10 @@
 								"translate": "item.kleispack.amber",
 								"color": "gold"
 							},
-							"!minecraft:consumable": {}
+							"!minecraft:consumable": {},
+							"minecraft:custom_data": {
+								"version": 1
+							}
 						}
 					}
 				}

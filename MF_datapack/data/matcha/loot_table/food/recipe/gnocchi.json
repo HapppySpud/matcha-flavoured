@@ -22,7 +22,10 @@
 									"color": "#e1bc62",
 									"italic": false
 								}
-							]
+							],
+							"minecraft:custom_data": {
+								"version": 1
+							}
 						}
 					}
 				}

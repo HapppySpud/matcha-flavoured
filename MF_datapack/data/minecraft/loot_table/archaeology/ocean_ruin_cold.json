@@ -20,38 +20,8 @@
 					"name": "minecraft:plenty_pottery_sherd"
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_axe",
-					"modifier": {
-						"type": "minecraft:set_components",
-						"components": {
-							"minecraft:damage": 140,
-							"minecraft:item_model": "matcha:rusty_axe",
-							"minecraft:item_name": "Rusty Axe",
-							"minecraft:lore": [
-								{
-									"text": "⛏ 6",
-									"color": "blue",
-									"italic": false
-								},
-								{
-									"text": "🗡 9",
-									"color": "dark_green",
-									"italic": false
-								},
-								{
-									"text": "🕒 0.9",
-									"color": "dark_green",
-									"italic": false
-								}
-							],
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:attribute_modifiers"
-								]
-							}
-						}
-					}
+					"type": "minecraft:loot_table",
+					"value": "matcha:equipment/misc/rusty_axe"
 				},
 				{
 					"type": "minecraft:item",

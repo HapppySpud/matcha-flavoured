@@ -6,7 +6,7 @@ data modify entity @s Offers.Recipes append value \
 		"id": "minecraft:emerald"\
 	},\
 	"buy": {\
-		"count": 1,\
+		"count": 8,\
 		"id": "minecraft:poisonous_potato",\
 		"components": {\
 			"minecraft:item_model": "matcha:brachio_chicken_nugget",\

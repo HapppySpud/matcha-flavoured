@@ -2,7 +2,7 @@
 schedule function matcha:timers/1s 1s replace
 
 # Debug
-#say Clock 1s
+# say Clock 1s
 
 # Functions
 
@@ -18,3 +18,4 @@ execute as @e[tag=infant] unless entity @s[nbt={AgeLocked:1b}] run execute at @s
 #Cow Gift
 execute as @e[type=cow] at @s run function matcha:environmental/cow/cow_gift
 
+execute as @a[scores={hunger_timer=0..}] at @s run function matcha:effects/hunger/effect

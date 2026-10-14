@@ -31,7 +31,10 @@
 									"color": "dark_gray",
 									"italic": false
 								}
-							]
+							],
+							"minecraft:custom_data": {
+								"version": 1
+							}
 						}
 					}
 				}

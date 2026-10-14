@@ -15,7 +15,10 @@
 								"translate": "item.kleispack.opal",
 								"color": "#ab85ad"
 							},
-							"!minecraft:consumable": {}
+							"!minecraft:consumable": {},
+							"minecraft:custom_data": {
+								"version": 1
+							}
 						}
 					}
 				}

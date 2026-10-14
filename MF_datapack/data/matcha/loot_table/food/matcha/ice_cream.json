@@ -49,9 +49,6 @@
 											"effects": "#matcha:harmful"
 										}
 									]
-								},
-								"minecraft:use_remainder": {
-									"id": "minecraft:bowl"
 								}
 							}
 						}

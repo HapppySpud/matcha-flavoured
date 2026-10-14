@@ -21,6 +21,9 @@
 								"description": {
 									"translate": "item.kleispack.cheerful_clay_statue.desc"
 								}
+							},
+							"minecraft:custom_data": {
+								"version": 1
 							}
 						}
 					}

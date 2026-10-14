@@ -1,5 +1,8 @@
 # Called when getting a "broken Heart" advancement (Ie. Obtaining, Iron, Copper, Diamond etc)
 
+# Safety check to make sure the score is initialised
+execute unless score @s minimum_hearts matches 0.. run scoreboard players set @s minimum_hearts 20
+
 scoreboard players remove @s minimum_hearts 2
 
 # If minimum hearts falls below the minimum for Normal difficulty, increase the difficulty IF it is in normal

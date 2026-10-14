@@ -11,7 +11,7 @@ data modify entity @s Offers.Recipes append value \
 		"components": {\
 			"minecraft:item_model": "matcha:red_mushroom_stroganoff",\
 			"minecraft:item_name": {\
-				"translate": "item.klispack.red_mushroom_stroganoff"\
+				"translate": "item.kleispack.red_mushroom_stroganoff"\
 			},\
 			"minecraft:lore": [\
 				{\
