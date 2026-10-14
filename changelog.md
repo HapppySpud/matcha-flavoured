@@ -18,6 +18,7 @@ Update Ecologic
 - Buckets are now copper instead of iron
 - Food
     - Shelf Mushroom is now an ingredient
+- Kettles!
 
 **--- SPOILERS FROM HERE ON ---**
 - Chicken Overhaul
@@ -32,6 +33,11 @@ Update Ecologic
     - Pigs can eat certain blocks, I wonder what'll happen?
 - Cows
     - Can now be milked with glass bottles, but not after breeding (ironic ik)
+- Kettles & Tea
+    - Using a Kettle to cook can provide you with more product while using less ingredients. 
+    - Kettles can also be used to make "Bubbling" variants of foods (splash potions)
+    - "Okay, but why not just use the crafting table?"
+    - Idk man, sometimes stuff is just fun
 
 ### Credits
 - Internet-Hyena: Established the new pig and chicken stuff! Amazing
@@ -168,6 +174,30 @@ The update no one asked for!
 
 
 - Farmer Hat, made with wheat and helps with animals!...somehow
+
+
+### Kettles & Tea
+- Melon -> Watermelon Tea -> Watermelon Wine
+- Pumpkin -> Pumpkin Spice Latte -> Pumpkin Kombucha 
+- Shelf Mushroom -> "" Tea -> Shelf Mushroom Kombucha
+- "" Mushroom -> "" Tea -> "" Kombucha
+- Coco Beans -> Hot Chocolate -> Tejate
+- Apple -> Apple Juice -> Apple Cider
+- Honey Ginger Tea -> Mead
+- Carrot -> Carrot Juice -> Gajar Kanji
+- Potato -> Potato Milk -> Poitin
+- Glowberry Tea -> Glowberry Wine
+- Sweet Berry Tea -> Sweet Berry Wine
+- Tomato Juice -> Tomato Wine
+- Chorus Tea -> Chorus Wine
+- Grain -> Beer -> Bourbon
+
+"Putrid" Descriptor added to fermented version for lingering potions
+
+- Villager sells
+    - "A Teamasters guide to Excellent Steeping"
+    - Tells you the base mechanics with pictures?? I don't want text, maybe a map
+
 
 
 ### Aspects
