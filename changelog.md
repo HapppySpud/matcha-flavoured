@@ -39,6 +39,12 @@ Update Ecologic
     - "Okay, but why not just use the crafting table?"
     - Idk man, sometimes stuff is just fun
 
+
+### Tweaks and Small Additions
+- Ladders now have a 3D model
+- Horse, Nautilus, Beacon, and Crafter UI Textures added
+
+
 ### Credits
 - Internet-Hyena: Established the new pig and chicken stuff! Amazing
 - Hashiru: Optimisations
