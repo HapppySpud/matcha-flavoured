@@ -31,14 +31,6 @@
                     }
                 ]
 			}
-		},
-		{
-			"apply": {
-				"model": "matcha:block/kettle_bottle_1"
-			},
-			"when": {
-                "has_bottle_0": "true"
-			}
 		}
 	]
 }

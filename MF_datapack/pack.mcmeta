@@ -2408,6 +2408,9 @@
 		},{
 			"namespace": "minecraft",
 			"path": "advancement/recipes/.*/clock.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/brewing/*"
 		}]
 	}
 }

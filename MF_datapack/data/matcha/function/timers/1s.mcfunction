@@ -19,3 +19,7 @@ execute as @e[tag=infant] unless entity @s[nbt={AgeLocked:1b}] run execute at @s
 execute as @e[type=cow] at @s run function matcha:environmental/cow/cow_gift
 
 execute as @a[scores={hunger_timer=0..}] at @s run function matcha:effects/hunger/effect
+
+
+# Kettles
+execute as @e[type=minecraft:marker,tag=kettle,tag=placed] run function matcha:mechanics/kettle/update_kettle

@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+                            "minecraft:item_model": "minecraft:brewing_stand",
+                            "minecraft:item_name": {
+                                "translate": "item.minecraft.brewing_stand"
+                            },
+                            "minecraft:entity_data": {
+                                "id": "minecraft:marker",
+                                "Tags": [
+                                    "kettle"
+                                ]
+                            }
+                        }
+					},
+					"name": "minecraft:chicken_spawn_egg"
+				}
+			]
+		}
+	]
+}

@@ -1,8 +1,0 @@
-{
-	"textures": {
-		"particle": "block/brewing_stand",
-		"stand": "block/brewing_stand"
-	},
-	"elements": [
-	]
-}

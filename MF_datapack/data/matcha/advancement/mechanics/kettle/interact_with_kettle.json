@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "matcha:mechanics/kettle/check_kettle_fuel"
+		"function": "matcha:mechanics/kettle/update_kettle_heat"
 	}
 }

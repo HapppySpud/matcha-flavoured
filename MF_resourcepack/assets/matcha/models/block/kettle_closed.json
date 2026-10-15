@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "matcha:block/kettle",
-		"particle": "matcha:block/kettle"
+		"particle": "minecraft:block/copper_block"
 	},
 	"elements": [
 		{

@@ -2,7 +2,8 @@
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "matcha:block/kettle"
+		"2": "matcha:block/kettle",
+		"particle": "minecraft:block/copper_block"
 	},
 	"elements": [
 		{
