@@ -1,5 +1,12 @@
 {
 	"replace": true,
-  "values": [
-  ]
+	"values": [
+		"#minecraft:coals",
+		"minecraft:short_dry_grass",
+		"minecraft:tall_dry_grass",
+		"minecraft:wheat",
+		"minecraft:stick",
+		"#minecraft:planks",
+		"#minecraft:logs"
+	]
 }

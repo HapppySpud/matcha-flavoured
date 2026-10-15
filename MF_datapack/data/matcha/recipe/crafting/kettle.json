@@ -2,14 +2,13 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "misc",
 	"key": {
-		"#": "#minecraft:stone_crafting_materials",
-		"B": "minecraft:iron_ingot",
+		"#": "minecraft:leather",
+		"B": "minecraft:bucket",
 		"C": "minecraft:copper_ingot"
 	},
 	"pattern": [
-		" B ",
-		" C ",
-		"###"
+		"C# ",
+		"CBC"
 	],
 	"result": {
 		"id": "minecraft:brewing_stand"
