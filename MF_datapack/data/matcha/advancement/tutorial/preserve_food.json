@@ -55,12 +55,6 @@
 				"recipes": "matcha:food/crafting/sweet_berry_jam"
 			}
 		},
-		"mead": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipes": "matcha:food/crafting/mead"
-			}
-		},
 		"pumpkin_jam": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
@@ -115,7 +109,6 @@
 			"canned_golden_apples",
 			"glow_jam",
 			"golden_pickled_carrots",
-			"mead",
 			"pickled_carrots",
 			"pickled_potatoes",
 			"preserve_tomatoes",

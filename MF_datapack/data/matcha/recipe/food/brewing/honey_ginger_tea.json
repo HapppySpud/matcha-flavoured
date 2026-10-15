@@ -1,10 +1,13 @@
 {
-	"type": "minecraft:campfire_cooking",
-	"category": "food",
-	"cookingtime": 200,
-	"experience": 0.35,
-	"ingredient": "minecraft:honey_bottle",
-	"result": {
+	"type": "minecraft:brewing",
+	"input": {
+		"item": "minecraft:potion",
+		"potion_contents": {
+			"potions": "minecraft:water",
+			"effects": {}
+		}
+	},
+	"output": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "matcha:honey_ginger_tea",
@@ -13,14 +16,14 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\ue030",
+					"text": "",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.speed",
 					"with": [
-						"0:30"
+						"1:00"
 					],
 					"color": "#37cafb",
 					"italic": false
@@ -47,13 +50,6 @@
 								"duration": 24,
 								"show_particles": false,
 								"show_icon": false
-							},
-							{
-								"id": "minecraft:speed",
-								"amplifier": 0,
-								"duration": 600,
-								"show_particles": false,
-								"show_icon": true
 							}
 						]
 					},
@@ -63,12 +59,32 @@
 					}
 				]
 			},
+            "minecraft:potion_contents": {
+				"potion": "minecraft:awkward",
+				"custom_effects": [
+					{
+						"id": "minecraft:speed",
+						"amplifier": 0,
+						"duration": 1200,
+						"show_particles": false,
+						"show_icon": true
+					}
+				]
+			},
 			"minecraft:use_remainder": {
 				"id": "minecraft:glass_bottle"
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:potion_contents"
+				]
 			},
 			"minecraft:custom_data": {
 				"version": 1
 			}
 		}
+	},
+	"reagent": {
+		"item": "minecraft:honey_bottle"
 	}
 }

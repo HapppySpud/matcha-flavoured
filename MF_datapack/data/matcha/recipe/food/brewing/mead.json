@@ -1,17 +1,22 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"category": "misc",
-	"ingredients": [
-		"minecraft:honey_bottle",
-		"minecraft:brown_mushroom",
-		"minecraft:sugar",
-		[
-			"minecraft:sweet_berries",
-			"minecraft:apple",
-			"minecraft:glow_berries"
-		]
-	],
-	"result": {
+	"type": "minecraft:brewing",
+	"input": {
+		"item": "minecraft:poisonous_potato",
+		"potion_contents": {
+			"potions": "minecraft:awkward",
+			"effects": {
+				"contains": [
+					{
+						"minecraft:speed": {
+							"amplifier": 0,
+							"duration": 1200
+						}
+					}
+				]
+			}
+		}
+	},
+	"output": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "matcha:mead",
@@ -20,7 +25,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\ue030\ue030\ue030",
+					"text": "",
 					"color": "red",
 					"italic": false
 				},
@@ -49,25 +54,37 @@
 								"duration": 72,
 								"show_particles": false,
 								"show_icon": false
-							},
-							{
-								"id": "minecraft:speed",
-								"amplifier": 0,
-								"duration": 6000,
-								"show_particles": false,
-								"show_icon": true
 							}
 						]
+					}
+				]
+			},
+			"minecraft:potion_contents": {
+				"potion": "minecraft:awkward",
+				"custom_effects": [
+					{
+						"id": "minecraft:speed",
+						"amplifier": 0,
+						"duration": 6000,
+						"show_particles": false,
+						"show_icon": true
 					}
 				]
 			},
 			"minecraft:use_remainder": {
 				"id": "minecraft:glass_bottle"
 			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:potion_contents"
+				]
+			},
 			"minecraft:custom_data": {
 				"version": 1
 			}
-		},
-		"count": 1
+		}
+	},
+	"reagent": {
+		"item": "minecraft:brown_mushroom"
 	}
 }

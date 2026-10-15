@@ -55,12 +55,6 @@
 				"recipes": "matcha:food/crafting/sweet_berry_jam"
 			}
 		},
-		"mead": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipes": "matcha:food/crafting/mead"
-			}
-		},
 		"pumpkin_jam": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {

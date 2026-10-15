@@ -34,10 +34,11 @@ Update Ecologic
 - Cows
     - Can now be milked with glass bottles, but not after breeding (ironic ik)
 - Kettles & Tea
-    - Using a Kettle to cook can provide you with more product while using less ingredients. 
-    - Kettles can also be used to make "Bubbling" variants of foods (splash potions)
-    - "Okay, but why not just use the crafting table?"
-    - Idk man, sometimes stuff is just fun
+    - Kettles are used to make foods more efficiently than crafting, but won't provide foods with large health recoveries like crafted foods will 
+    - Kettles are the only way to make "Bubbling" variants of foods (splash potions)
+    - Kettles are the only way to make "Putrid" variants of foods (linering potions)
+    - Kettle foods are pretty bare bones right now, I want to expand them so you can make more coffees and teas, with variants of each (ex. espresso v latte v cappuccino) || (Earl grey v London Fog) || (Green Tea, Green Milk Tea, Green Boba Milk Tea)
+        - But thats a lot of texture work, if you are good with textures and want to help out, go to the github and send in your tea-lightful submissions
 
 
 ### Tweaks and Small Additions

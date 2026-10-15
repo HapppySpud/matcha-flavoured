@@ -1,18 +1,22 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"category": "misc",
-	"ingredients": [
-		"minecraft:honey_bottle",
-		"minecraft:brown_mushroom",
-		"minecraft:sugar",
-		"minecraft:sugar",
-		[
-			"minecraft:sweet_berries",
-			"minecraft:apple",
-			"minecraft:glow_berries"
-		]
-	],
-	"result": {
+	"type": "minecraft:brewing",
+	"input": {
+		"item": "minecraft:poisonous_potato",
+		"potion_contents": {
+			"potions": "minecraft:awkward",
+			"effects": {
+				"contains": [
+					{
+						"minecraft:speed": {
+							"amplifier": 0,
+							"duration": 6000
+						}
+					}
+				]
+			}
+		}
+	},
+	"output": {
 		"id": "minecraft:splash_potion",
 		"components": {
 			"minecraft:item_model": "matcha:bubbling_mead",
@@ -55,7 +59,9 @@
 			"minecraft:custom_data": {
 				"version": 1
 			}
-		},
-		"count": 1
+		}
+	},
+	"reagent": {
+		"item": "minecraft:sugar"
 	}
 }
