@@ -271,6 +271,8 @@ The update no one asked for!
 - [???] Muddy Buddy???: When happy, Pigs will dig for Roots and Mushrooms much more often.
 - [Truffle] Truffle!: Have a happy Pig dig up a Truffle for you
 - [Stonecutter] XXX: Stonecutters cut more than stone, and produce Blocks more efficiently than a Crafting Bench otherwise would
+- [Hot Chocolate] Feliz Navidad!: Make Hot Chocolate, Puerquitos and Bunelos in a snowy biome ||
+- [Pan Dulce] Panaderia: Make Puerquitos, Conchas, Bunelos, Apple and Pumpkin Empanadas
 
 # Stretch / Back-burner
 
