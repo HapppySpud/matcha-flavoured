@@ -262,16 +262,19 @@ The update no one asked for!
 - Restore their memory, of what they used to be (Echoes: Restore an Echo Shard's memory)
 - Child of Moros: Smith Full Adamant Set 
 - Harbinger of Fate: Smith Adamant Elytra 
-- Rancher??: Make a Straw Hat
-- [Golden Carrot] Porcine Propagator: Breed a pair of pigs with a Golden Carrot
-- [Potato/Pig in a Crate] Truffle Hunter: When fed to a full belly, some animals will gift you something in return. Just make sure they have a suitable habitat to dig, peck, or eat from.
+- Dressed to Impress: Make a Straw Hat
+- [Golden Carrot] Stockman: Breed a pair of pigs with Golden Carrots
+- [Haybale] ???: Breed a pair of cows with Hay Bales
+- [???] Stockman: Cow Troughs compell nearby cattle to visit them for food
+- [] Happy Cows: Let a cow eat a placed Hay Bale near a Trough
+- [] ???: Make a cow sad by keeping it in too confied a space
 - [Straw] Roosters : Birds stay near their Roosts in the wild. A newly-hatched Chick always stays close to its birth place
 - [Egg] Birdwatcher: Collect an Egg from every Bird species
 - [???] GMOs: Obtain a specific animal breed
-- [???] Muddy Buddy???: When happy, Pigs will dig for Roots and Mushrooms much more often.
+- [???] Playful Pigs: Let a pig play in mud
 - [Truffle] Truffle!: Have a happy Pig dig up a Truffle for you
+
 - [Stonecutter] XXX: Stonecutters cut more than stone, and produce Blocks more efficiently than a Crafting Bench otherwise would
-- [Hot Chocolate] Feliz Navidad!: Make Hot Chocolate, Puerquitos and Bunelos in a snowy biome ||
 - [Pan Dulce] Panaderia: Make Puerquitos, Conchas, Bunelos, Apple and Pumpkin Empanadas
 
 # Stretch / Back-burner
