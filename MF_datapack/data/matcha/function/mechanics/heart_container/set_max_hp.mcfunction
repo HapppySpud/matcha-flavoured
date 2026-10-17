@@ -3,7 +3,7 @@ execute if score @s Hearts >= $Max Hearts run scoreboard players operation @s He
 
 
 #If they are on easy, we want to make sure it never goes below 10, HOWEVER, if they choose to go back to normal, we still want them to have that death consequence, thus:
-execute if score current_world_settings_difficulty difficulty_score matches 1 run execute if score @s Hearts < $Easy minimum_hearts run scoreboard players operation @s Hearts = $Easy minimum_hearts
+execute if score current_world_settings_difficulty difficulty_score matches 0..1 run execute if score @s Hearts < $Easy minimum_hearts run scoreboard players operation @s Hearts = $Easy minimum_hearts
 
 #If they are NOT on easy, and they dip below their minimum, set it to their minimum
 execute if score current_world_settings_difficulty difficulty_score matches 2.. run execute if score @s Hearts < @s minimum_hearts run scoreboard players operation @s Hearts = @s minimum_hearts

@@ -8,7 +8,6 @@ function matcha:environmental/check_freezing_water_conditions
 function matcha:environmental/nether_water
 function matcha:environmental/village_eerie_sound
 
-function matcha:mechanics/anvil_xp/remove_xp
 function matcha:mechanics/cake_eaten
 function matcha:mechanics/heart_container/detect_death
 function matcha:mechanics/manage_hunger

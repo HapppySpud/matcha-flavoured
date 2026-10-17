@@ -36,7 +36,16 @@
 		"minecraft:visual/cloud_height": 192.33,
 		"minecraft:visual/fog_color": "#c0d8ff",
 		"minecraft:visual/sky_color": "#78a7ff",
-		"minecraft:visual/ambient_light_color": "#212631"
+		"minecraft:visual/ambient_light_color": "#212631",
+		"minecraft:gameplay/straw_bed_rule": {
+			"can_sleep": "always",
+			"can_set_spawn": "never",
+			"destroy_on_use": false,
+			"destroy_on_leave": true,
+			"error_message": {
+				"translate": "block.minecraft.bed.no_sleep"
+			}
+		}
 	},
 	"coordinate_scale": 1,
 	"has_ceiling": false,

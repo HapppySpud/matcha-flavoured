@@ -1,0 +1,8 @@
+You need to go to the DATAPACK folder (its in your world/save file)
+When you get there go to Matcha_Flavoured_x/data/minecraft/dimension_type
+
+Delete the overworld.json
+rename the overworld_no_true_darkness.txt to overworld.json
+Restart the world server
+
+Everything should be good

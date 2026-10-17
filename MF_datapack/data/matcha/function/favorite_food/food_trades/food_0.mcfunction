@@ -1,12 +1,12 @@
 data modify entity @s Offers.Recipes append value \
 {\
-	maxUses: 1, \
-	sell: {\
-		count: 1,\
-		id: "minecraft:emerald"\
+	"maxUses": 1, \
+	"sell": {\
+		"count": 1,\
+		"id": "minecraft:emerald"\
 	}, \
-	buy: {\
-		count: 1,\
+	"buy": {\
+		"count": 1,\
 		"id": "minecraft:poisonous_potato",\
 		"components": {\
 			"minecraft:item_model": "matcha:apple_empanada",\

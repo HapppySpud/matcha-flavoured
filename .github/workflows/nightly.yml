@@ -18,20 +18,36 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Zip MF_resourcepack contents
+      - name: Setup MF_resourcepack
         run: |
           cd MF_resourcepack
+          mkdir ../Auxiliary/MF_mod/resourcepacks
+          cp -r ./assets/ ../Auxiliary/MF_mod/
           zip -r ../MF_resourcepack.zip .
 
-      - name: Zip MF_datapack contents
+      - name: Setup MF_datapack
         run: |
           cd MF_datapack
+          cp -r * ../Auxiliary/MF_mod
           zip -r ../MF_datapack.zip .
+
+      - name: Setup Auxilliary RPs
+        run: |
+          cd Auxiliary
+          cd MF_Accesible_RP && zip -r ../../MF_Accesible_RP.zip .
+          cd ../MF_FastLeaves_RP && zip -r ../../MF_FastLeaves_RP.zip .
+
+      - name: Setup MF_mod
+        run: |
+          cd Auxiliary/MF_mod
+          zip -0 -r ../../MF_mod.zip .
+          mv ../../MF_mod.zip ../../MF_mod.jar
 
       - name: Create Release Description
         run: |
           echo -n "This is an experimental release with the latest features and bugfixes, updated every day. Last commit: " >> nightly.txt
           git log --format="%H" HEAD^..HEAD >> nightly.txt
+          cat changelog.md >> nightly.txt
 
       - name: Create Release
         uses: softprops/action-gh-release@v3.0.3
@@ -44,3 +60,6 @@ jobs:
           files: |
             MF_resourcepack.zip
             MF_datapack.zip
+            MF_mod.jar
+            MF_Accesible_RP.zip
+            MF_FastLeaves_RP.zip

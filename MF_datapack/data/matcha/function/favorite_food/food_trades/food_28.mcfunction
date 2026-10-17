@@ -1,6 +1,6 @@
 data modify entity @s Offers.Recipes append value \
 {\
-	"max_uses": 1,\
+	"maxUses": 1,\
 	"sell": {\
 		"count": 1,\
 		"id": "minecraft:emerald"\

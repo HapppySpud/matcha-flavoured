@@ -15,10 +15,11 @@ Update Ecologic
     - Mojang recently made a terrible decision to limit animal pathing if they are a certain distance away from the player. I can't find a way around this. This works fine for vanilla, animals in vanilla don't do much of anything, but it can be a problem for this pack. If you think something funky is going on, make sure you stay by your animals a bit to let their path-finding fix itsself.
     - "Persistent mobs' random walk/swim behaviors will now deactivate when players are not nearby, in the same way as non-persistent mobs."
     - Mojang why?? LET ME CHANGE IT PLEASE (at least with mob follow distance attribute to override it?)
-- Buckets are now copper instead of iron
+- Buckets are now copper instead of Iron (Internet-Hyena + Me)
 - Food
     - Shelf Mushroom is now an ingredient
 - Kettles!
+
 
 **--- SPOILERS FROM HERE ON ---**
 - Chicken Overhaul
@@ -45,7 +46,6 @@ Update Ecologic
     - Kettles are the only way to make "Putrid" variants of foods (linering potions)
     - Kettle foods are pretty bare bones right now, I want to expand them so you can make more coffees and teas, with variants of each (ex. espresso v latte v cappuccino) || (Earl grey v London Fog) || (Green Tea, Green Milk Tea, Green Boba Milk Tea)
         - But thats a lot of texture work, if you are good with textures and want to help out, go to the github and send in your tea-lightful submissions
-
 
 ### Tweaks and Small Additions
 - Ladders now have a 3D model

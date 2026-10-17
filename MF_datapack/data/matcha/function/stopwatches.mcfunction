@@ -8,7 +8,5 @@ execute if stopwatch minecraft:1s 1.. run function matcha:timers/1s/timer
 execute if stopwatch minecraft:2s 2.. run function matcha:timers/2s/timer
 execute if stopwatch minecraft:3s 3.. run function matcha:timers/3s/timer
 
-execute if stopwatch minecraft:divinity 30.. run function matcha:timers/divinity/timer
-
 # Left this one default because dev did some random magic with it
 execute if stopwatch minecraft:eerie 150.1.. run function matcha:timers/eerie/timer

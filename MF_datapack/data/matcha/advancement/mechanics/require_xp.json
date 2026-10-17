@@ -1,0 +1,26 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"interact_with_anvil": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": "#matcha:grants_temp_levels"
+								}
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:mechanics/xp_handling/give_levels"
+	}
+}

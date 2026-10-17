@@ -1,7 +1,7 @@
 # Called when getting a "broken Heart" advancement (Ie. Obtaining, Iron, Copper, Diamond etc)
 
 # Safety check to make sure the score is initialised
-execute unless score @s minimum_hearts matches 0.. run scoreboard players set @s minimum_hearts 20
+execute unless score @s minimum_hearts matches -20..999 run scoreboard players set @s minimum_hearts 20
 
 scoreboard players remove @s minimum_hearts 2
 
@@ -21,7 +21,7 @@ execute if score @s minimum_hearts matches 8 run tellraw @s {"color":"red","tran
 execute if score @s minimum_hearts matches 6 run tellraw @s {"color":"red","translate":"log.kleispack.god_grows_angry_7"}
 
 # If in Easy mode, do not say that minimum hearts has been decreased
-execute if score current_world_settings_difficulty difficulty_score matches 1 run return fail
+execute if score current_world_settings_difficulty difficulty_score matches 0..1 run return fail
 
 # Mechanic Messages
 execute if score @s minimum_hearts matches 18 run tellraw @s {"color":"gray","translate":"log.kleispack.minimum_heart_decreased","with":["9"]}

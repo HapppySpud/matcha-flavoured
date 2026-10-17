@@ -2,34 +2,32 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "building",
 	"pattern": [
-		" o ",
-		" C ",
-		" X "
+		"o",
+		"C",
+		"X"
 	],
 	"key": {
-		"X": "minecraft:hay_block",
+		"o": "minecraft:emerald",
 		"C": "minecraft:campfire",
-		"o": "minecraft:emerald"
+		"X": "minecraft:hay_block"
 	},
 	"result": {
+		"count": 1,
+		"id": "minecraft:chicken_spawn_egg",
 		"components": {
+			"minecraft:item_model": "matcha:beacon_kindling",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.beacon_kindling"
+			},
 			"minecraft:entity_data": {
 				"id": "minecraft:marker",
-				"NoGravity": true,
-				"Invulnerable": true,
 				"Tags": [
 					"beacon_kindling"
 				]
 			},
-			"minecraft:item_name": {
-				"translate": "item.kleispack.beacon_kindling"
-			},
-			"minecraft:item_model": "matcha:beacon_kindling",
 			"minecraft:custom_data": {
 				"version": 1
 			}
-		},
-		"count": 1,
-		"id": "minecraft:chicken_spawn_egg"
+		}
 	}
 }

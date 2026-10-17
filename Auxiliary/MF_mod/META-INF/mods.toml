@@ -1,0 +1,9 @@
+
+modLoader = 'lowcodefml'
+loaderVersion = '[40,)'
+license = 'CC-BY-NC-SA-4.0'
+showAsResourcePack = false
+mods = [
+	{ modId = 'matcha_flavoured', version = '0-nightly', displayName = 'Matcha Flavoured', description = "Reworks minecraft's gameplay to benefit slower, less technical players", logoFile = 'pack.png', authors = 'klei_wright', displayURL = 'https://modrinth.com/datapack/matcha-flavoured' },
+]
+issueTrackerURL = 'https://github.com/kleiwright/matcha-flavoured/issues'
