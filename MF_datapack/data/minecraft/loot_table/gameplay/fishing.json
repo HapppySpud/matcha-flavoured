@@ -33,117 +33,117 @@
 					"children": [
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/freshwater_cold",
+							"value": "matcha:gameplay/fishing/freshwater_cold",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:freshwater_cold"
+									"biomes": "#matcha:freshwater_cold"
 								}
 							}
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/freshwater_cool",
+							"value": "matcha:gameplay/fishing/freshwater_cool",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:freshwater_cool"
+									"biomes": "#matcha:freshwater_cool"
 								}
 							}
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/freshwater_temperate",
+							"value": "matcha:gameplay/fishing/freshwater_temperate",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:freshwater_temperate"
+									"biomes": "#matcha:freshwater_temperate"
 								}
 							}
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/freshwater_hot_wet",
+							"value": "matcha:gameplay/fishing/freshwater_hot_wet",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:freshwater_hot_wet"
+									"biomes": "#matcha:freshwater_hot_wet"
 								}
 							}
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/freshwater_hot_dry",
+							"value": "matcha:gameplay/fishing/freshwater_hot_dry",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:freshwater_hot_dry"
+									"biomes": "#matcha:freshwater_hot_dry"
 								}
 							}
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/saltwater_cold",
+							"value": "matcha:gameplay/fishing/saltwater_cold",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:saltwater_cold"
+									"biomes": "#matcha:saltwater_cold"
 								}
 							}
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/saltwater_cool",
+							"value": "matcha:gameplay/fishing/saltwater_cool",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:saltwater_cool"
+									"biomes": "#matcha:saltwater_cool"
 								}
 							}
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/saltwater_temperate",
+							"value": "matcha:gameplay/fishing/saltwater_temperate",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:saltwater_temperate"
+									"biomes": "#matcha:saltwater_temperate"
 								}
 							}
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/saltwater_warm",
+							"value": "matcha:gameplay/fishing/saltwater_warm",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:saltwater_warm"
+									"biomes": "#matcha:saltwater_warm"
 								}
 							}
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/saltwater_hot",
+							"value": "matcha:gameplay/fishing/saltwater_hot",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:saltwater_hot"
+									"biomes": "#matcha:saltwater_hot"
 								}
 							}
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/swamps",
+							"value": "matcha:gameplay/fishing/swamps",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:swamps"
+									"biomes": "#matcha:swamps"
 								}
 							}
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/deep_dark",
+							"value": "matcha:gameplay/fishing/deep_dark",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -153,7 +153,7 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/sulfur_caves",
+							"value": "matcha:gameplay/fishing/sulfur_caves",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -163,7 +163,7 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/freshwater_temperate",
+							"value": "matcha:gameplay/fishing/freshwater_temperate",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -176,7 +176,7 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/pale_garden",
+							"value": "matcha:gameplay/fishing/pale_garden",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -186,11 +186,11 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/saltwater_temperate",
+							"value": "matcha:gameplay/fishing/saltwater_temperate",
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": "#minecraft:fallback"
+									"biomes": "#matcha:fallback"
 								}
 							}
 						},
