@@ -18,7 +18,7 @@ Update Ecologic
 - Buckets are now copper instead of Iron (Internet-Hyena + Me)
 - Food
     - Shelf Mushroom is now an ingredient
-- Kettles!
+- Kettles! What lovely teas, coffees, and wines will you concot?
 
 
 **--- SPOILERS FROM HERE ON ---**
@@ -41,15 +41,22 @@ Update Ecologic
     - But feeding them will speed the process up
     - Cows who are kept too close to their trough after eating
 - Kettles & Tea
-    - Kettles are used to make foods more efficiently than crafting, but won't provide foods with large health recoveries like crafted foods will 
-    - Kettles are the only way to make "Bubbling" variants of foods (splash potions)
+    - Teas focus on effects, Foods focus on health recovery
+    - So if you need health, opt for food, if you need effect, opt for tea
+    - Kettles are the only way to make "Sparkling" variants of foods (splash potions)
     - Kettles are the only way to make "Putrid" variants of foods (linering potions)
     - Kettle foods are pretty bare bones right now, I want to expand them so you can make more coffees and teas, with variants of each (ex. espresso v latte v cappuccino) || (Earl grey v London Fog) || (Green Tea, Green Milk Tea, Green Boba Milk Tea)
         - But thats a lot of texture work, if you are good with textures and want to help out, go to the github and send in your tea-lightful submissions
 
+
+
 ### Tweaks and Small Additions
 - Ladders now have a 3D model
 - Horse, Nautilus, Beacon, and Crafter UI Textures added
+
+### Removed
+- Honey Ginger Tea (Oven crafting)
+- Mead, Bubbling Mead (Crafting)
 
 
 ### Credits
@@ -230,7 +237,15 @@ The update no one asked for!
     - "A Teamasters guide to Excellent Steeping"
     - Tells you the base mechanics with pictures?? I don't want text, maybe a map
 
+- Structure
+    - Teas focus on effects, food focuses on hearts
+    - Tea .5h - 1:00 
+    - Fermented 1 - 5:00 
+    - Bubbling 0 - 5:00 at Lvl2 
 
+    - Cooked 1h - ~10-30s
+    - Pickled 2h - 1-3 min
+    - Meal 4-5h - 3-5 min
 
 ### Aspects
 - Allows you to extract intrinsics from certain alloys, post-end enchanting
