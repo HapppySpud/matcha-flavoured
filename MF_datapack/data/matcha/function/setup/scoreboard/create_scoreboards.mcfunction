@@ -160,9 +160,11 @@ scoreboard objectives add matcha.chicken_gifting_cooldown dummy
 # Used to play digging/play/pecking animations
 scoreboard objectives add matcha.digging_animation dummy
 scoreboard objectives add matcha.pig_play_animation dummy
+scoreboard objectives add matcha.eating_animation dummy
 # Cooldown before muddy pigs become clean again
 scoreboard objectives add matcha.muddy_cooldown dummy
 # Timer before infant turns into a baby
 scoreboard objectives add matcha.infant_age dummy
-# Cooldown for cows eating grass
+# Cooldown for cows eating grass and Milk Cooldown
 scoreboard objectives add matcha.cow_eating_cooldown dummy
+scoreboard objectives add matcha.milk_reserve dummy

@@ -5,8 +5,8 @@ Update Ecologic
 - Update Ecologic
     - Farm animals have been reworked to reward players for taking care of their animals, and punish players for slaughtering animals on-sight
     - Cows, Chickens, and Pigs have special requirements, when these are met, they will become "Happy"
-    - Happy animals drop unique loot, more of it, and perform useful tasks more often
-    - Each animal's requirements are outlined in the advancements
+    - Happy animals drop unique loot, more of it, and perform useful tasks more often. Some animals can also become sad, pay attention to their needs and act accordingly
+    - Each animal's requirements are hinted in the advancements
     - I encourage you to pay attention to animal behaviours and environments, there are other factors not outlined in the advancements that can affect loot
 - Animal Spawning and Breeding Changes
     - Animal spawning and breeding has been changed. If you have pre-existing chickens. They will not have as many unique behavious as newly-generated wild ones.
@@ -33,6 +33,12 @@ Update Ecologic
     - Pigs can eat certain blocks, I wonder what'll happen?
 - Cows
     - Can now be milked with glass bottles, but not after breeding (ironic ik)
+    - Cows can now be milked DRY, if you want to keep milking them, they have to be kept happy
+    - Cows graze much more often than chickens and pigs, when they feed, they will gain an additional Milk reserve (+1)
+    - If they feed on a haybale or wheat they will gain many milk reserves (+8)
+    - This cannot be forced by the player, rather, feeding a cow a hay bale directly will not increase milk reserves, only on their own terms will this happen
+    - But feeding them will speed the process up
+    - Cows who are kept too close to their trough after eating
 - Kettles & Tea
     - Kettles are used to make foods more efficiently than crafting, but won't provide foods with large health recoveries like crafted foods will 
     - Kettles are the only way to make "Bubbling" variants of foods (splash potions)
@@ -90,10 +96,29 @@ Update Ecologic
 - Add credits for all the new commit things in github
 
 
-# DOCKET (MUST be done before next release)
-  
+# DOCKET 
+- Trough
+- Cows near trough, when not happy, must display sad particle when eating
+- SO have a happy tag, and a fed tag, if not fed they cannot be sad if near trough, if fed they cannot be happy until away from trough. 
+
+- Trough Ideas
+    - Maybe a cauldron, use the same technique as kettle, when using a hay bale on it (adv for this would be easy) it turns into a trough. 
+    - This could be made even easier, instead of a custom block model you just use an item display to put a hay texture in the cauldron.
+    - But at that point, why not just make a custom trough item?
+
+    - Resetting...
+    - Trough is a custom item, (chicken spawn egg) made with a cauldron, and haybale
+    - When used, a trigger adv looks for the nearby marker, and sets the cauldron block
+    - A item display is summoned inside the cauldron, (tp to be in center of block?) with a hay texture
+    - The trough is now active, and does what it needs to (ie. Scans nearby cattle, tags them, etc)
+    - BUT like the kettle, a constant 1s timer is needed to check if the block was broken, at this point it only needs to delete the marker, and release cows from its reign (Maybe it summons a hay bale too)
+
+
 ## BUGS
 - Double check that the update Floof did didn't override the matcha:steel It shouldn't have but just in case
+
+## Ready for alpha
+- Pigs
 
 ## 26.3
 

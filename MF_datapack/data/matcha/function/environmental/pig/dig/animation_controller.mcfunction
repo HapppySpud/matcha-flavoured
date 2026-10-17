@@ -12,10 +12,13 @@ execute if score @s matcha.digging_animation matches 10 run execute at @s run fu
 execute if score @s matcha.digging_animation matches 6..10 run rotate @s ~ 90
 execute if score @s matcha.digging_animation matches 4..5 run rotate @s ~ 20
 execute if score @s matcha.digging_animation matches 1..3 run rotate @s ~ -90
+
 execute if score @s matcha.digging_animation matches 1 run execute at @s run particle heart ~ ~1 ~ .3 .1 .3 0.1 1 normal
 execute if score @s matcha.digging_animation matches 1 run execute at @s run effect give @s minecraft:regeneration 10 2 true
 execute if score @s matcha.digging_animation matches 1 run execute at @s run playsound minecraft:entity.pig.death neutral @a ~ ~ ~ 1 1.5
-# --- Check at the end of the animation to make sure the pig is STILL on the block it was digging at the begning (or at least the same type)
+
+
+# --- Check at the end of the animation to make sure the pig is STILL on the block it was digging at the begining (or at least the same type)
 # Check to make sure there isn't anything edible on top of the block it is trying to dig, so that the function does not trigger twice
 execute if score @s matcha.digging_animation matches 1 run execute at @s run execute \
     if block ~ ~-1 ~ #matcha:animal_affects/pig_diggable_dirt \
