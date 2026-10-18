@@ -1,0 +1,97 @@
+{
+	"type": "minecraft:brewing",
+	"input": {
+		"item": "minecraft:poisonous_potato",
+		"potion_contents": {
+			"potions": "minecraft:awkward",
+			"effects": {
+				"contains": [
+					{
+						"minecraft:resistance": {
+							"amplifier": 0,
+							"duration": 1200
+						}
+					}
+				]
+			}
+		}
+	},
+	"output": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:item_model": "matcha:hard_pumpkin_cider",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.hard_pumpkin_cider"
+			},
+			"minecraft:lore": [
+				{
+					"text": "\uE030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.resistance",
+					"with": [
+						"8:00"
+					],
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"animation": "drink",
+				"sound": "minecraft:item.honey_bottle.drink",
+				"has_consume_particles": false,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 24,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:nausea",
+								"amplifier": 0,
+								"duration": 90,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+            "minecraft:potion_contents": {
+				"potion": "minecraft:awkward",
+				"custom_effects": [
+					{
+						"id": "minecraft:resistance",
+						"amplifier": 0,
+						"duration": 9600,
+						"show_particles": false,
+						"show_icon": true
+					}
+				]
+			},
+			"minecraft:use_remainder": {
+				"id": "minecraft:glass_bottle"
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:potion_contents"
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+	"reagent": {
+		"item": "minecraft:brown_mushroom"
+	}
+}

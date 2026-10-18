@@ -45,7 +45,9 @@ Update Ecologic
     - So if you need health, opt for food, if you need effect, opt for tea
     - Kettles are the only way to make "Sparkling" variants of foods (splash potions)
     - Kettles are the only way to make "Putrid" variants of foods (linering potions)
-    - Kettle foods are pretty bare bones right now, I want to expand them so you can make more coffees and teas, with variants of each (ex. espresso v latte v cappuccino) || (Earl grey v London Fog) || (Green Tea, Green Milk Tea, Green Boba Milk Tea)
+    - Coffees are a great way to have combined effects, foods typically give you at most one or two effects, coffees can give you up to 4
+        - Think about drinks you would make in real life, and what would you add to zest them up?
+    - I want to expand them so you can make more coffees and teas, with variants of each (ex. espresso v latte v cappuccino) || (Earl grey v London Fog) || (Green Tea, Green Milk Tea, Green Boba Milk Tea)
         - But thats a lot of texture work, if you are good with textures and want to help out, go to the github and send in your tea-lightful submissions
 
 
@@ -60,6 +62,9 @@ Update Ecologic
 ### Removed
 - Honey Ginger Tea (Oven crafting)
 - Mead, Bubbling Mead (Crafting)
+
+### Nerfed
+- Rind Jam, Melon Sorbet
 
 
 ### Credits
@@ -124,9 +129,13 @@ Update Ecologic
     - The trough is now active, and does what it needs to (ie. Scans nearby cattle, tags them, etc)
     - BUT like the kettle, a constant 1s timer is needed to check if the block was broken, at this point it only needs to delete the marker, and release cows from its reign (Maybe it summons a hay bale too)
 
+- When done with brewing
+- Update all brewing LTs
+- Update Rind Jam, Melon sorbet, Brownie, Chocolate Chip Cookie
+
 
 ## BUGS
-- Double check that the update Floof did didn't override the matcha:steel It shouldn't have but just in case
+
 
 ## Ready for alpha
 - Pigs
@@ -267,6 +276,13 @@ The update no one asked for!
 - Lightning Rod/Conductive: redirects all "aura"-based nonsense to itsself, and nullifies it
 - This may need to work differently on players, Ex. Zombies need only one piece to be immune, players may need more to nullify all damage
 
+## Rose Gold
+- A Dazzling/Fabulous Alloy
+- Something with the aura effect, some weapons give glowing, when a glowing mob is killed, all adj mobs are stunned, weakened or something. 
+- This could also mean it combos with Adamant
+- Offense for Shakudo's defense
+- I like the idea that the tools are a more durable form of gold
+
 ## Worldgen
 - Make Diamonds more rare
 - Add in TankyAibem & Linkershim's dope ass portal things
@@ -314,12 +330,16 @@ The update no one asked for!
 - [] ???: Make a cow sad by keeping it in too confied a space
 - [Straw] Roosters : Birds stay near their Roosts in the wild. A newly-hatched Chick always stays close to its birth place
 - [Egg] Birdwatcher: Collect an Egg from every Bird species
-- [???] GMOs: Obtain a specific animal breed
+- [???] Genetic Engineering: Obtain a specific animal breed
 - [???] Playful Pigs: Let a pig play in mud
 - [Truffle] Truffle!: Have a happy Pig dig up a Truffle for you
 
 - [Stonecutter] XXX: Stonecutters cut more than stone, and produce Blocks more efficiently than a Crafting Bench otherwise would
 - [Pan Dulce] Panaderia: Make Puerquitos, Conchas, Bunelos, Apple and Pumpkin Empanadas
+
+- [Wine Bottle] Sommelier: Vinify every type of Wine
+- [Coffee] Barista: Brew every kind of Coffee
+- [Gay Wine] (Hidden) A True Drinkmaster: Concoct every Coffee, Tea, Kombucha, and Wine
 
 # Stretch / Back-burner
 

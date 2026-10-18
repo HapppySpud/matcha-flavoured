@@ -23,7 +23,7 @@
 				{
 					"translate": "effect.kleispack.fire_resistance",
 					"with": [
-						"10:00"
+						"5:00"
 					],
 					"color": "gold",
 					"italic": false
@@ -48,7 +48,7 @@
 							{
 								"id": "minecraft:fire_resistance",
 								"amplifier": 0,
-								"duration": 12000,
+								"duration": 6000,
 								"show_particles": false,
 								"show_icon": true
 							}
