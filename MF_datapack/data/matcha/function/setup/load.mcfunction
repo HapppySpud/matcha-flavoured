@@ -25,3 +25,6 @@ advancement revoke @a from matcha:imm_revoke
 
 # Start favorite food setup
 function matcha:favorite_food/favorite_food_setup
+
+# Enable heart loss by default, if a server operator modified it DO NOT overwrite the existing setting 
+execute unless data storage matcha:config heart_container_loss_on_death run data modify storage matcha:config heart_container_loss_on_death set value 1b
