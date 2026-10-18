@@ -53,6 +53,9 @@ Update Ecologic
 ### Tweaks and Small Additions
 - Ladders now have a 3D model
 - Horse, Nautilus, Beacon, and Crafter UI Textures added
+- Heart Container loss can now be toggled by running:
+    - `/function matcha:config/heart_container_loss_on_death/toggle` (fautore)
+
 
 ### Removed
 - Honey Ginger Tea (Oven crafting)
@@ -79,6 +82,7 @@ Update Ecologic
 - EastMonster: Bug fixes
 - Voxybuns: Custom emojis and their implimentation
 - milo256: Dyanmic Multiplayer Sleep
+- fautore: Toggable Heart Container Loss
 - All of the translation volunteers
 - Thank you so much everyone!
 #### Assets
