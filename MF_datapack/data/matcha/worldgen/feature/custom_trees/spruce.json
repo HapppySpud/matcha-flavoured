@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:weighted_random_selector",
+	"features": [
+		{
+			"data": {
+				"feature": {
+					"type": "minecraft:sequence",
+					"features": [
+						{
+							"feature": {
+								"type": "minecraft:template",
+								"templates": [
+									{
+										"data": {
+											"id": "matcha:custom_trees/spruce_med"
+										},
+										"weight": 1
+									},
+                                    {
+										"data": {
+											"id": "matcha:custom_trees/spruce_large"
+										},
+										"weight": 1
+									}
+								]
+							},
+							"placement": []
+						}
+					]
+				},
+				"placement": []
+			},
+			"weight": 200
+		}
+	]
+}

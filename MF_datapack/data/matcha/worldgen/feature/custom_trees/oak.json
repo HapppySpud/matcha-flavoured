@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:weighted_random_selector",
+	"features": [
+		{
+			"data": {
+				"feature": {
+					"type": "minecraft:sequence",
+					"features": [
+						{
+							"feature": {
+								"type": "minecraft:template",
+								"templates": [
+									{
+										"data": {
+											"id": "matcha:custom_trees/oak_1"
+										},
+										"weight": 1
+									},
+                                    {
+										"data": {
+											"id": "matcha:custom_trees/oak_2"
+										},
+										"weight": 1
+									}
+								]
+							},
+							"placement": []
+						}
+					]
+				},
+				"placement": []
+			},
+			"weight": 200
+		}
+	]
+}
