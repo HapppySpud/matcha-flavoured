@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:brewing",
+	"input": {
+		"item": "minecraft:splash_potion",
+		"potion_contents": {
+			"potions": "minecraft:awkward",
+			"effects": {
+				"contains": [
+					{
+						"minecraft:night_vision": {
+							"amplifier": 0,
+							"duration": 36000
+						}
+					}
+				]
+			}
+		}
+	},
+	"output": {
+		"id": "minecraft:lingering_potion",
+		"components": {
+			"minecraft:item_model": "matcha:putrid_gajar_kanji",
+			"minecraft:custom_name": {
+				"translate": "item.kleispack.putrid_gajar_kanji",
+				"italic": false
+			},
+			"minecraft:lore": [
+				{
+					"translate": "effect.kleispack.night_vision",
+					"with": ["30:00"],
+					"color": "green",
+					"italic": false
+				}
+			],
+			"minecraft:potion_contents": {
+				"potion": "minecraft:awkward",
+				"custom_color": 6299702,
+				"custom_effects": [
+					{
+						"id": "minecraft:night_vision",
+						"amplifier": 0,
+						"duration": 21601,
+						"show_particles": true,
+						"show_icon": true
+					}
+				]
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:potion_contents"
+				]
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+	"reagent": {
+		"item": "minecraft:gunpowder"
+	}
+}

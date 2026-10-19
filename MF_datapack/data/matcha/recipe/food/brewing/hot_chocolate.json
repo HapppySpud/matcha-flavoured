@@ -1,11 +1,7 @@
 {
 	"type": "minecraft:brewing",
 	"input": {
-		"item": "minecraft:potion",
-		"potion_contents": {
-			"potions": "minecraft:water",
-			"effects": {}
-		}
+		"item": "minecraft:beetroot_soup"
 	},
 	"output": {
 		"id": "minecraft:poisonous_potato",
