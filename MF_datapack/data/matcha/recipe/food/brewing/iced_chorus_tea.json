@@ -1,0 +1,88 @@
+{
+	"type": "minecraft:brewing",
+	"input": {
+		"item": "minecraft:poisonous_potato",
+		"potion_contents": {
+			"potions": "minecraft:awkward",
+			"effects": {
+				"contains": [
+					{
+						"minecraft:slow_falling": {
+							"amplifier": 0,
+							"duration": 600
+						}
+					}
+				]
+			}
+		}
+	},
+	"output": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:item_model": "matcha:iced_chorus_tea",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.iced_chorus_tea"
+			},
+			"minecraft:lore": [
+				{
+					"text": "\uE032",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.levitation_10",
+					"with": ["0:01"],
+					"color": "#ae6cbc",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 0.8,
+				"animation": "drink",
+				"sound": "minecraft:entity.generic.drink",
+				"has_consume_particles": false,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 12,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+            "minecraft:potion_contents": {
+				"potion": "minecraft:awkward",
+				"custom_effects": [
+					{
+						"id": "minecraft:levitation",
+						"amplifier": 9,
+						"duration": 20,
+						"show_particles": false,
+						"show_icon": true
+					}
+				]
+			},
+			"minecraft:use_remainder": {
+				"id": "minecraft:glass_bottle"
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:potion_contents"
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+	"reagent": {
+		"item": "minecraft:ice"
+	}
+}

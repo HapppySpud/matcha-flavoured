@@ -18,7 +18,8 @@ Update Ecologic
 - Buckets are now copper instead of Iron (Internet-Hyena + Me)
 - Food
     - Shelf Mushroom is now an ingredient
-- Kettles! What lovely teas, coffees, and wines will you concot?
+- Kettles! With around 53 new drinks, what lovely teas, coffees, and wines will you concot?
+    - Kettles can't be fully automated due to how their heating mechanic works
 
 
 **--- SPOILERS FROM HERE ON ---**
@@ -47,7 +48,7 @@ Update Ecologic
     - Kettles are the only way to make "Putrid" variants of foods (linering potions)
     - Coffees are a great way to have combined effects, foods typically give you at most one or two effects, coffees can give you up to 4
         - Think about drinks you would make in real life, and what would you add to zest them up?
-    - I want to expand them so you can make more coffees and teas, with variants of each (ex. espresso v latte v cappuccino) || (Earl grey v London Fog) || (Green Tea, Green Milk Tea, Green Boba Milk Tea)
+    - I want to expand them so you can make more coffees and teas, with variants of each (Earl grey v London Fog) || (Green Tea, Green Milk Tea, Green Boba Milk Tea)
         - But thats a lot of texture work, if you are good with textures and want to help out, go to the github and send in your tea-lightful submissions
 
 
@@ -57,7 +58,9 @@ Update Ecologic
 - Horse, Nautilus, Beacon, and Crafter UI Textures added
 - Heart Container loss can now be toggled by running:
     - `/function matcha:config/heart_container_loss_on_death/toggle` (fautore)
-
+#### Food
+- Added Conchas
+- Im not telling you what drinks were added you gotta go experiment and explore it on your own
 
 ### Removed
 - Honey Ginger Tea (Oven crafting)
@@ -299,8 +302,6 @@ The update no one asked for!
     - Could change raw chicken to chicken cutlet, allows happy chickens (happiness score increase if fed and cooldown is not reached) to drop more product (STRETCH) 
 
 ## Low-Priority Bugs
-- Add predicate for surface spawn that excludes structures
-- When running on mud brick slabs with traversal boots, when I jump I get the speed boost, but when I just run on it normally I don't get the speed boost
 - Villager Gift LT (Toolsmith give stone tools, laaame)
 
 ## Difficulty scaling
@@ -343,17 +344,24 @@ The update no one asked for!
 
 # Stretch / Back-burner
 
-## Small Additions
-- Increase resin amount in pale graden fishing
-- Potatoes and Molasses
-- French Fries
-- Jelly/Jam Bread (Or PBJ without the PB)
-- Craftable Thorns
-- Add Cinnabar and Sulfur, dripstone, raw copper to dripstone caves, Badlands raw gold, deep dark, disc fragments, to fishing trash
-- Increase resin amount in pale graden fishing
-- Add secondary items for certain villager trades (ie empty map for map trades)
+### Piority Suggestions
+- A way for mob spawning to be turned back on (Goat horn) something using the dragon head
 
-### Suggestions
+## Small Additions
+
+## Medium Additions
+- "Have recipes or hints toward features appear in abandoned camp loot pools, or possibly other loot pools as well.
+- Have spawners (aside from dungeons, wait no LT can't read entity data...)
+    * I wanted to have a way for spawners to make mobs that won't drop anything, by spawning them with a tag
+    * But I tag can't influence loot tables I dont think.
+- Cats traded by farmer?
+- Wandering Trader trade more than just village maps
+- Netherite nuggets for repairing netherite
+
+
+## Fun/Stretch Additions
+- Re-add Copper Horns, and leave sheet music as treasure, which can be smithed (???? like have one spawn egg as sheet msuic and give each an enchant or soemthing, trigger adv on craft, and merge the data)
+   - And use the unused copper horn sounds! The really cool ones!
 - Fermented Spider eye secret meal
 - New paintings (with hints!)
 - Bag of Sugar!
@@ -366,19 +374,15 @@ The update no one asked for!
     - Adamant shield: deals a very small dmg to the attacker when blocking his dmg, it works on all types of enemies but the damage is way lower than electrum shield, could also come with increased durability/unbreaking.
 - Cold biomes (and oceans) should have better loot due to freezing water
 - Rebalance obol to be more rare in chests? Trial chambers esp...idk
-
-## Medium Additions
-- "Have recipes or hints toward features appear in abandoned camp loot pools, or possibly other loot pools as well.
-- Have spawners (aside from dungeons, wait no LT can't read entity data...)
-    * I wanted to have a way for spawners to make mobs that won't drop anything, by spawning them with a tag
-    * But I tag can't influence loot tables I dont think.
-- Cats traded by farmer?
-- Wandering Trader trade more than just village maps
-
-
-## Fun/Stretch Additions
-- Re-add Copper Horns, and leave sheet music as treasure, which can be smithed (???? like have one spawn egg as sheet msuic and give each an enchant or soemthing, trigger adv on craft, and merge the data)
-   - And use the unused copper horn sounds! The really cool ones!
+- Increase resin amount in pale graden fishing
+- Potatoes and Molasses
+- French Fries
+- Jelly/Jam Bread (Or PBJ without the PB)
+- Craftable Thorns
+- Add Cinnabar and Sulfur, dripstone, raw copper to dripstone caves, Badlands raw gold, deep dark, disc fragments, to fishing trash
+- Increase resin amount in pale graden fishing
+- Downgrade template to go from Netherite back to diamond if you don't like smelting
+- Wither dungeon (nether dungeon)
 
 ##World Gen
 - Dense Poplars
@@ -413,3 +417,4 @@ The update no one asked for!
 - Coal high in swamps
 - Sulfur high in sulfur caves
 - Iron high in Cold Biomes
+

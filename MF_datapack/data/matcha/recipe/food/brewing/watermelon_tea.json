@@ -22,9 +22,7 @@
 				},
 				{
 					"translate": "effect.kleispack.fire_resistance",
-					"with": [
-						"3:00"
-					],
+					"with": ["3:00"],
 					"color": "gold",
 					"italic": false
 				}

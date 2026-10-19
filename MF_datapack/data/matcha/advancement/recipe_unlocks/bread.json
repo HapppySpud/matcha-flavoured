@@ -19,7 +19,10 @@
 	],
 	"rewards": {
 		"recipes": [
-			"matcha:food/crafting/french_toast"
+			"matcha:food/crafting/french_toast",
+			"matcha:food/crafting/concha_white",
+			"matcha:food/crafting/concha_pink",
+			"matcha:food/crafting/concha_yellow"
 		]
 	}
 }
