@@ -301,6 +301,45 @@ The update no one asked for!
     - OR a random tick thing (timer at some large time) that allows chicken to reproduce if no entities nearby are babies, and maybe if there are only few chickens (~<5-8) (STRETCH)
     - Could change raw chicken to chicken cutlet, allows happy chickens (happiness score increase if fed and cooldown is not reached) to drop more product (STRETCH) 
 
+### Villages and Structures
+- Structure stacking for villages (AKA Village clusters)
+- This means each VC will be compromised of X total structures
+    - The Well
+        - The Well structure is the dungeon structure for each village
+        - It can generate a small/med structure adjacent to itsself 
+    - The Monument
+        - A larger structure that can generate in VC, like the well, limited to 1/n
+        - Like the church
+    - Housing
+        - Many(?) structures that can generate around these core features, they tend to be small and aren't very interesting, but help the trans from the larger structures to the outskirts.
+    - Farmland
+        - A potential even more minor structure to help the transition
+- Maps would lead to the Well structure, since if a well fails to generate, the VC wouldn't be that interesting
+
+- Problem, the "salt" is compltely random, and small values changes can lead to large deltas
+- So Pillager outposts may be a better way to try and do somethng like this. Using "base plates" instead of paths to connect village houses
+- What I don't understand:
+    - Why do baseplates seem to "snap" to the ground, rather than elevate it? 
+    - Base plates contain feature plates, the base plate is rigid, and molds terrains
+    - Feature plates are terrain matching, but use jigsaws to place structures above them
+    - The features they place, are rigid
+    - But WHY in that weird cross pattern?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Low-Priority Bugs
 - Villager Gift LT (Toolsmith give stone tools, laaame)
 
