@@ -1,0 +1,1 @@
+tellraw @s {"translate": "log.kleispack.dog_whistle.unbind_success", "color": "green"}
