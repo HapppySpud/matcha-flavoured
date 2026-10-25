@@ -190,6 +190,17 @@ The update no one asked for!
         - If a chicken is on a hopper, AND if there is more than x chickens too close, it dies (One of your chickens was squished too tighly, and died)
         - Or something like that
         - Maybe all of them get poison? And if piosoned with a tag, they only drop rotten eggs, and trash feathers
+
+Running into a problem here
+Chickens, in response to cows, were meant to plant grasses
+But if we let them do that, they shouldn't also be able to eat grasses
+
+
+
+
+
+
+
 - Pigs
     - Pig nests, pigs still spawn naturally?
     - Pigs don't live in open fields

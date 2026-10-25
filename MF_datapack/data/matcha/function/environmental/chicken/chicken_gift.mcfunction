@@ -1,4 +1,4 @@
-# init scoreboard timer for new chickens
+# init scoreboard timer for new pigs
 execute \
     unless score @s matcha.chicken_gifting_cooldown = @s matcha.chicken_gifting_cooldown \
     store result score @s matcha.chicken_gifting_cooldown \
@@ -9,25 +9,23 @@ scoreboard players remove @s matcha.chicken_gifting_cooldown 1
 
 # abort if timer is not negative or not standing on grass
 execute unless score @s matcha.chicken_gifting_cooldown matches ..0 run return fail
-execute unless block ~ ~-1 ~ #matcha:animal_affects/animal_diggable run return fail
+execute unless block ~ ~-0.8 ~ #matcha:animal_affects/chicken_peckable run return fail
 
-# stop, look down, give gift, and play a sound
+# --- Interact with block
 
-# spawn this pig's Gift Loot, tags will be determined there
-tag @s add matcha.chicken_gifting
-loot spawn ~ ~ ~ kill @s
-tag @s remove matcha.chicken_gifting
+#If the block the chicken is in, is edible, eat it
+# execute if block ~ ~0.5 ~ #matcha:animal_affects/chicken_edible run function matcha:environmental/chicken/eat/animation
+# Check to make sure there isn't anything edible on top of the block it is trying to peck, so that the function does not trigger twice
+execute if block ~ ~-1 ~ #matcha:animal_affects/chicken_peckable \
+    unless block ~ ~0.5 ~ #matcha:animal_affects/chicken_edible \
+    run function matcha:environmental/chicken/peck/animation
 
-playsound minecraft:block.crop.break neutral @a
-setblock ~ ~-1 ~ minecraft:dirt
-particle block{block_state:"minecraft:dirt"} ~ ~ ~ .25 .1 .25 0.1 10 normal
-particle heart ~ ~1 ~ .3 .1 .3 0.1 1 normal
-#THis should be the chicken sound, but we need to check the variant first
-# playsound minecraft:entity.pig.ambient neutral @a
-effect give @s slowness 1 99 true
-rotate @s ~ 180
+# #Check if chicken can nest on this 
+# execute if block ~ ~-0.8 ~ #matcha:animal_affects/chicken_can_nest_on run function matcha:environmental/chicken/nest/animation
+#       Maybe you feed chickens golden seeds or smthn that causes them to nest
 
-# reset timer
-execute \
-    store result score @s matcha.chicken_gifting_cooldown \
-    run random value 300..600
+# /execute as @n[type=chicken] run data merge entity @s {EggLayTime:100}
+
+
+# --- Reset timer
+execute store result score @s matcha.chicken_gifting_cooldown run random value 300..600
