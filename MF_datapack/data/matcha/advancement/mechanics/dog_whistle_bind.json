@@ -1,0 +1,31 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"used_whistle": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:dog_whistle"
+					}
+				},
+                "entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:wolf"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"used_whistle"
+		]
+	],
+	"rewards": {
+		"recipes": [],
+		"function": "matcha:mechanics/dog_whistle/bind"
+	}
+}
