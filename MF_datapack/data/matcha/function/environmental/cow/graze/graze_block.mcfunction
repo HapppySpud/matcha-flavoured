@@ -1,9 +1,7 @@
-setblock ~ ~-1 ~ minecraft:dirt
+execute if block ~ ~ ~ minecraft:short_grass run setblock ~ ~ ~ minecraft:air
+execute if block ~ ~ ~ minecraft:tall_grass run setblock ~ ~ ~ minecraft:short_grass
 #Cows gain 1 milk value per grass 
-scoreboard players @s add matcha.milk_reserve 1
-
-
-
+scoreboard players add @n[type=cow] matcha.milk_reserve 1
 
 #Leftover code maybe cows give manure, which can be composted to give immediate bonemeal, or just bonemeal itsself
 

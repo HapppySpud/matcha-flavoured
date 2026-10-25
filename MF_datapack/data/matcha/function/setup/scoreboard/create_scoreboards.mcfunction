@@ -151,5 +151,6 @@ scoreboard objectives add matcha.muddy_cooldown dummy
 # Timer before infant turns into a baby
 scoreboard objectives add matcha.infant_age dummy
 # Cooldown for cows eating grass and Milk Cooldown
-scoreboard objectives add matcha.cow_eating_cooldown dummy
+scoreboard objectives add matcha.cow_grazing_cooldown dummy
+scoreboard objectives add matcha.cow_happy_cooldown dummy
 scoreboard objectives add matcha.milk_reserve dummy

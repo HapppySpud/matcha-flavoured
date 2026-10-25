@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "matcha:trough",
+							"minecraft:item_name": {
+								"translate": "item.kleispack.trough"
+							},
+							"minecraft:entity_data": {
+								"id": "minecraft:marker",
+								"Tags": [
+									"trough"
+								]
+							}
+						}
+					},
+					"name": "minecraft:chicken_spawn_egg"
+				}
+			]
+		}
+	]
+}

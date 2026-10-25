@@ -13,9 +13,12 @@ execute if score @s matcha.eating_animation matches 6..10 run rotate @s ~ 90
 execute if score @s matcha.eating_animation matches 4..5 run rotate @s ~ 40
 execute if score @s matcha.eating_animation matches 1..3 run rotate @s ~ 20
 execute if score @s matcha.eating_animation matches 1 run execute at @s run function matcha:environmental/cow/eat/final_hay_eat_animation
-execute if score @s matcha.eating_animation matches 1 run execute at @s run particle heart ~ ~2 ~ .3 .1 .3 0.1 1 normal
+execute if score @s matcha.eating_animation matches 1 run execute at @s[tag=!sad] run particle heart ~ ~2 ~ .3 .1 .3 0.1 1 normal
+execute if score @s matcha.eating_animation matches 1 run execute at @s[tag=happy] run particle heart ~ ~2 ~ .3 .1 .3 0.1 5 normal
+execute if score @s matcha.eating_animation matches 1 run execute at @s[tag=sad] run particle angry_villager ~ ~2 ~ .3 .1 .3 0.1 1 normal
 execute if score @s matcha.eating_animation matches 1 run execute at @s run effect give @s minecraft:regeneration 10 2 true
-execute if score @s matcha.eating_animation matches 1 run execute at @s run playsound minecraft:entity.cow_moody.ambient neutral @a ~ ~ ~ 1
+execute if score @s matcha.eating_animation matches 1 run execute at @s[tag=!sad] run playsound minecraft:entity.cow_moody.ambient neutral @a ~ ~ ~ 1
+execute if score @s matcha.eating_animation matches 1 run execute at @s[tag=sad] run playsound minecraft:entity.cow_moody.hurt neutral @a ~ ~ ~ 1
 
 
 # --- Check at the end of the animation to make sure the cow is STILL on the block it was grazing at the begining (or at least the same type)

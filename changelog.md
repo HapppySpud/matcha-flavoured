@@ -104,6 +104,39 @@ Update Ecologic
 - TankyAibem: Chicken roosts
 - Grim-O: Plains Village, Desert Village
 
+
+### For the Devs
+Each animal affect was designed with three things in mind:
+- Sympathy
+    - Does the Environmental Actor (EA) reflect what they do in real life? 
+- Feedback Loops
+    - Does the EA have a tangible affect on their environment, and will that effect force them to act differently?
+- Stewardship
+    - Is the player rewarded for helping our EA, on the species' terms? 
+
+#### Cow Mechanics
+- Trough when placed causes all cows within 50 blocks to set their home to it
+    - A heart will appear over cows when a trough is placed, this shows you that they see the trough and are coming (slowly)
+- Cows will slowly make their way to the trough
+- When they do, cows will become hungry
+- Hungry cows check every second (if a player is near) to see if there is a valid block to eat
+- When they eat, they become fed, and leave the trough
+- If they graze again, far from the trough, they become happy
+- If they graze again, near the trough, they become sad
+- Happy cows have a cool down of about 2 hours (2 days) after this period the cows will no longer be happy, or fed, and will want to return to the trough
+- The cycle starts over
+
+So basically. Give your cows an open field with grass, plenty of wheat near the trough, and they will become happy. If you keep them confined in a small space, they will become sad. Sad cows do not produce as much milk. And happy cows drop much more product when killed (TBI)
+Various actions, like grazing, or eating, will increase the amount of milk a cow has. 
+    - If a cow eats fully grown wheat, they gain +5 milk, if they eat immature wheat, they gain +2. If they eat a hay block, they gain +10! If they just graze grass, they gain +1.
+    - These numbers will probably need some balancing.
+    - Wheat is for a more passive player, they will still gain milk and be happy, but not as happy as if you activley fed them blocks of wheat
+
+Cows will NOT eat wheat or hay bales unless they are near a trough. They prefer fresh grass most of the time (like real life)
+
+Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay bales
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -116,21 +149,9 @@ Update Ecologic
 
 
 # DOCKET 
-- Trough
-- Cows near trough, when not happy, must display sad particle when eating
-- SO have a happy tag, and a fed tag, if not fed they cannot be sad if near trough, if fed they cannot be happy until away from trough. 
-
-- Trough Ideas
-    - Maybe a cauldron, use the same technique as kettle, when using a hay bale on it (adv for this would be easy) it turns into a trough. 
-    - This could be made even easier, instead of a custom block model you just use an item display to put a hay texture in the cauldron.
-    - But at that point, why not just make a custom trough item?
-
-    - Resetting...
-    - Trough is a custom item, (chicken spawn egg) made with a cauldron, and haybale
-    - When used, a trigger adv looks for the nearby marker, and sets the cauldron block
-    - A item display is summoned inside the cauldron, (tp to be in center of block?) with a hay texture
-    - The trough is now active, and does what it needs to (ie. Scans nearby cattle, tags them, etc)
-    - BUT like the kettle, a constant 1s timer is needed to check if the block was broken, at this point it only needs to delete the marker, and release cows from its reign (Maybe it summons a hay bale too)
+- Trough block display inside cauldron
+- Happy cow LT
+- When breeding cows, adv triggers that makes the child set its home to the parent's home (trough)
 
 - When done with brewing
 - Update all brewing LTs
@@ -365,9 +386,9 @@ The update no one asked for!
 - Dressed to Impress: Make a Straw Hat
 - [Golden Carrot] Stockman: Breed a pair of pigs with Golden Carrots
 - [Haybale] ???: Breed a pair of cows with Hay Bales
-- [???] Stockman: Cow Troughs compell nearby cattle to visit them for food
-- [] Happy Cows: Let a cow eat a placed Hay Bale near a Trough
-- [] ???: Make a cow sad by keeping it in too confied a space
+- [Trough] Stockman: Use a Cow Trough to compell nearby cattle to visit it for food
+- [Straw] Happy Cows: Let a cow eat a placed Hay Bale or planted Wheat near a Trough
+- [Angry Villager particle] ???: Make a Cow sad by keeping it in too confied a space
 - [Straw] Roosters : Birds stay near their Roosts in the wild. A newly-hatched Chick always stays close to its birth place
 - [Egg] Birdwatcher: Collect an Egg from every Bird species
 - [???] Genetic Engineering: Obtain a specific animal breed

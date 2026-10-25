@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:milk_bucket",
+					"modifier": [
+						{
+							"type": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"translate": "desc.kleispack.cleanse",
+										"color": "gray",
+										"italic": false
+									}
+								],
+								"minecraft:max_stack_size": 16
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

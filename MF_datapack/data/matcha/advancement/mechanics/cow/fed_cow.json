@@ -1,0 +1,23 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"fed_cow": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#matcha:cow_edible"
+				},
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:cow"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:environmental/cow/fed_cow"
+	}
+}

@@ -6,3 +6,6 @@ schedule function matcha:timers/10s 10s replace
 
 # Functions
 function matcha:mechanics/beacon_kindling/10s_loop
+
+# Troughs
+execute as @e[type=marker,tag=trough] run function matcha:environmental/cow/trough/update_nearby_cows
