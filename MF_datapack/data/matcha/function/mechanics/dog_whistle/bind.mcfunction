@@ -14,7 +14,7 @@ data remove storage matcha:dog_whistle owner_UUID
 
 # Save data to storage
 data modify storage matcha:dog_whistle whistle_UUIDs set from entity @s SelectedItem.components.minecraft:custom_data.UUIDs
-data modify storage matcha:dog_whistle UUID set from entity @n[type=minecraft:wolf] UUID
+data modify storage matcha:dog_whistle UUID set from entity @n[type=#matcha:dog_whistle_summons] UUID
 
 # Check not already bound
 execute unless function matcha:mechanics/dog_whistle/check_unique run return run function matcha:mechanics/dog_whistle/bind_fail_not_unique
