@@ -4,16 +4,11 @@
 		"used_whistle": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"item": {
-					"components": {
-						"minecraft:item_model": "matcha:dog_whistle"
-					}
-				},
-                "entity": {
+				"entity": {
 					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"minecraft:entity_type": "minecraft:wolf"
+						"minecraft:entity_type": "#matcha:dog_whistle_summons"
 					}
 				}
 			}

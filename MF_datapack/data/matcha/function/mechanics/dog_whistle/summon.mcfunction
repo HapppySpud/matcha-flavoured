@@ -1,3 +1,4 @@
+advancement revoke @s only matcha:mechanics/dog_whistle_summon
 tellraw @a {"translate": "log.kleispack.dog_whistle.summon"}
 
 data modify storage matcha:dog_whistle UUIDs.UUID0 set from entity @s SelectedItem.components.minecraft:custom_data.UUIDs[0]

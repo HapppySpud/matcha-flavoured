@@ -1,3 +1,6 @@
+advancement revoke @s only matcha:mechanics/dog_whistle_bind
+execute unless predicate matcha:items/is_dog_whistle run return fail
+
 # Check in range
 execute unless entity @n[type=#matcha:dog_whistle_summons, distance=..8] run return run function matcha:mechanics/dog_whistle/bind_fail_out_of_range
 
