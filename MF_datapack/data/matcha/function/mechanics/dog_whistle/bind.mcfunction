@@ -1,3 +1,6 @@
+# Check in range
+execute unless entity @n[type=minecraft:wolf, distance=..8] run return run function matcha:mechanics/dog_whistle/bind_fail_out_of_range
+
 # Unbind if sneaking
 execute if predicate matcha:flags/is_sneaking run return run function matcha:mechanics/dog_whistle/unbind
 

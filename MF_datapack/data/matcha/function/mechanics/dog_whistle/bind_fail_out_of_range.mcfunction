@@ -1,0 +1,1 @@
+tellraw @s {"translate": "log.kleispack.dog_whistle.bind_fail_out_of_range", "color": "red"}
