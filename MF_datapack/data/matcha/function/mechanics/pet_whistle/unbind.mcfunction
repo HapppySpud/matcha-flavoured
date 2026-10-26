@@ -1,8 +1,2 @@
-execute unless function matcha:mechanics/pet_whistle/try_unbind run return fail
-item modify entity @s weapon.mainhand {"type": "copy_custom_data", "source": {"type": "storage", "source": "matcha:pet_whistle"}, "ops": [{"source": "whistle_UUIDs", "target": "UUIDs", "op": "replace"}]}
+execute unless function matcha:mechanics/pet_whistle/try_remove_tag run return run tellraw @s {"translate": "log.kleispack.pet_whistle.not_bound", "color": "red"}
 tellraw @s {"translate": "log.kleispack.pet_whistle.unbind_success", "color": "green"}
-
-# Clear storage
-data remove storage matcha:pet_whistle whistle_UUIDs
-data remove storage matcha:pet_whistle check_UUIDs
-data remove storage matcha:pet_whistle UUID

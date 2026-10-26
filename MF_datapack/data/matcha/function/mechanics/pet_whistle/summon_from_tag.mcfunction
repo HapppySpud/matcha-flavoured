@@ -1,0 +1,1 @@
+$execute as @e[type=#matcha:pet_whistle_summons, tag=whistle$(whistleId)] run function matcha:mechanics/pet_whistle/summon_and_stand
