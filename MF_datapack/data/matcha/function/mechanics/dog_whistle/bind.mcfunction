@@ -1,20 +1,16 @@
 advancement revoke @s only matcha:mechanics/dog_whistle_bind
 execute unless predicate matcha:items/is_dog_whistle run return fail
 
-# Check in range
-execute unless entity @n[type=#matcha:dog_whistle_summons, distance=..8] run return run function matcha:mechanics/dog_whistle/bind_fail_out_of_range
-
 # Unbind if sneaking
 execute if predicate matcha:flags/is_sneaking run return run function matcha:mechanics/dog_whistle/unbind
 
 # Check ownership
-data remove storage matcha:dog_whistle owner_UUID
 execute if function matcha:mechanics/dog_whistle/check_ownership run return run function matcha:mechanics/dog_whistle/bind_fail_not_owner
 data remove storage matcha:dog_whistle owner_UUID
 
 # Save data to storage
 data modify storage matcha:dog_whistle whistle_UUIDs set from entity @s SelectedItem.components.minecraft:custom_data.UUIDs
-data modify storage matcha:dog_whistle UUID set from entity @n[type=#matcha:dog_whistle_summons] UUID
+execute anchored eyes positioned ^ ^ ^1.5 run data modify storage matcha:dog_whistle UUID set from entity @n[type=#matcha:dog_whistle_summons] UUID
 
 # Check not already bound
 execute unless function matcha:mechanics/dog_whistle/check_unique run return run function matcha:mechanics/dog_whistle/bind_fail_not_unique

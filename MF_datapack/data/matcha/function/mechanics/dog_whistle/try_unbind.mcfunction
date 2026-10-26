@@ -1,6 +1,6 @@
 # Save data to storage
 data modify storage matcha:dog_whistle whistle_UUIDs set from entity @s SelectedItem.components.minecraft:custom_data.UUIDs
-data modify storage matcha:dog_whistle UUID set from entity @n[type=#matcha:dog_whistle_summons,distance=..8] UUID
+execute anchored eyes positioned ^ ^ ^1.5 run data modify storage matcha:dog_whistle UUID set from entity @n[type=#matcha:dog_whistle_summons] UUID
 
 # Find in saved UUIDs
 data modify storage matcha:dog_whistle check_UUIDs set from storage matcha:dog_whistle whistle_UUIDs
