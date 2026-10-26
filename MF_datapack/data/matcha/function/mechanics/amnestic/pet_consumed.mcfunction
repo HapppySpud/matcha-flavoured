@@ -4,3 +4,4 @@ execute at @s run playsound minecraft:block.amethyst_block.chime neutral @a ~ ~ 
 # Remove owner and make stand
 data remove entity @s Owner
 data remove entity @s Sitting
+data remove entity @s Tags
