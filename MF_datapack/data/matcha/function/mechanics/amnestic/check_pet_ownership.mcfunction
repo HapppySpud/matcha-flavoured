@@ -1,0 +1,2 @@
+execute anchored eyes positioned ^ ^ ^1.5 as @n[type=#matcha:amnestic_pets] run data modify storage matcha:amnestic_pets owner_UUID set from entity @n[type=#matcha:amnestic_pets] Owner
+return run data modify storage matcha:amnestic_pets owner_UUID set from entity @s UUID
