@@ -1,1 +1,0 @@
-execute as @e[type=chicken] at @s run function matcha:environmental/chicken/chicken_gift

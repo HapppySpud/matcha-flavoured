@@ -8,9 +8,9 @@
                     "type": "minecraft:alternatives",
                     "children": [
                         {
-                            "type": "minecraft:item",
-                            "name": "minecraft:egg",
-                            "weight": 5,
+                            "type": "minecraft:loot_table",
+                            "value": "matcha:materials/egg",
+                            "weight": 8,
                             "modifier": {
                                 "type": "minecraft:set_count",
                                 "count": {
@@ -34,8 +34,8 @@
                     ]
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:egg",
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/egg",
                     "weight": 1
                 },
                 {

@@ -1,6 +1,7 @@
 {
     "values": [
-        "minecraft:grass_block",
-        "minecraft:dirt"
+        "minecraft:dirt",
+        "minecraft:rooted_dirt",
+        "minecraft:podzol"
     ]
 }

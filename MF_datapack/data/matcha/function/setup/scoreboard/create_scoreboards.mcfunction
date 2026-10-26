@@ -142,6 +142,7 @@ scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
 scoreboard objectives add matcha.pig_gifting_cooldown dummy
 # Cooldown for chickens giving gifts
 scoreboard objectives add matcha.chicken_gifting_cooldown dummy
+scoreboard objectives add matcha.chicken_planting_cooldown dummy
 scoreboard objectives add matcha.pecking_animation dummy
 # Used to play digging/play/pecking animations
 scoreboard objectives add matcha.digging_animation dummy

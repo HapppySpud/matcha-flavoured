@@ -1,5 +1,15 @@
 {
 	"type": "minecraft:gift",
-	"pools": [],
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:gameplay/chicken_lay/totipotent"
+				}
+			]
+		}
+	],
 	"random_sequence": "minecraft:gameplay/chicken_lay"
 }

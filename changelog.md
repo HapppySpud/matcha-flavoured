@@ -136,6 +136,32 @@ Cows will NOT eat wheat or hay bales unless they are near a trough. They prefer 
 
 Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay bales
 
+#### Chicken Mechanics
+- Birds need proper pecking ground in order to produce drops
+- Seagulls need Sand, but regular chickens need grass, for example
+- All birds will plant grass randomly. This cannot be influenced with feeding, the way drops are
+- So if Cows and chickens are kept together, the chickens should be able to sustain the cow population's happiness
+- Right now cows have no influence over chicken populations (this should be changed...I hope it can be)
+- Chickens CANNOT be bred to give live birth
+
+##### TBI
+- Chickes have diff personality types which influence their drops and behaviours
+    - Mama - Makes a ton of eggs, stays in the nest
+    - Mundane - A normal chicken, makes some eggs, some feathers, stays near home
+    - Curious - Digs up trinkets and shiny things, wanders pretty far
+    - Home-builder - Wanders far from home and makes a new one! After they make a nest they turn into a mama and make 2 babies
+    - Rascal - A type of seagull which only makes bonemeal
+- Chickens should be able to eat wheat, and if they do, they turn INTO a home-builder
+    - Keep your chickens out of your wheat fields! In no time, theyll have colonised the whole lot! With plenty of nests and chickens eating at them.
+    - Babies cannot turn into home builders or mamas
+- GMOS
+    - A special villager will trade select cultivars of chickens (for animals a cultivar is called a breed, but I dont like that term, it doesn't sound as exciting)
+    - The cultivars are the different personalities of chicken!
+- Hapiness
+    - Like cows, if kept too close to home, most chickens get upset, they want freedom!
+    - Mamas never get upset if too close to home, nor babies
+    - I dont know to implement this yet, i want it to curb hopper chickens farms, but people would just move the chickens away from their home and in a little box, that doesn't seem very nice
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------

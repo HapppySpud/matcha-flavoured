@@ -1,0 +1,8 @@
+{
+    "values": [
+        "minecraft:grass_block",
+        "minecraft:farmland",
+        "minecraft:moss_block",
+        "#matcha:animal_affects/dirts"
+    ]
+}

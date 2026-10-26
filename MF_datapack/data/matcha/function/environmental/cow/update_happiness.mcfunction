@@ -1,9 +1,9 @@
 # If there is a trough nearby, and I am fed, make me sad
-execute if entity @n[type=minecraft:marker,tag=trough,distance=..10] if entity @s[tag=fed] run tag @s add sad
-execute if entity @n[type=minecraft:marker,tag=trough,distance=..10] if entity @s[tag=fed] run tag @s remove happy
+execute if entity @n[type=minecraft:marker,tag=trough,distance=..7] if entity @s[tag=fed] run tag @s add sad
+execute if entity @n[type=minecraft:marker,tag=trough,distance=..7] if entity @s[tag=fed] run tag @s remove happy
 # If there is NOT a trough near me, make me happy
-execute if entity @n[type=minecraft:marker,tag=trough,distance=10..] if entity @s[tag=fed] run tag @s add happy
-execute if entity @n[type=minecraft:marker,tag=trough,distance=10..] if entity @s[tag=fed] run tag @s remove sad
+execute if entity @n[type=minecraft:marker,tag=trough,distance=8..] if entity @s[tag=fed] run tag @s add happy
+execute if entity @n[type=minecraft:marker,tag=trough,distance=8..] if entity @s[tag=fed] run tag @s remove sad
 
 # reset happy timer
 execute store result score @s[tag=happy] matcha.cow_happy_cooldown run random value 7200..7800

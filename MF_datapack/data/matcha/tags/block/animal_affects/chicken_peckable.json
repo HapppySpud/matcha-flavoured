@@ -1,11 +1,7 @@
 {
     "values": [
+        "minecraft:grass_block",
         "#matcha:animal_affects/dirts",
-        "#matcha:animal_affects/gravels",
-        "#matcha:animal_affects/rooted_dirts",
-        "#matcha:animal_affects/podzols",
-        "#matcha:animal_affects/mycelia",
-        "#matcha:animal_affects/sands",
-        "#matcha:animal_affects/red_sands"
+        "#matcha:animal_affects/mycelia"
     ]
 }
