@@ -24,6 +24,7 @@ execute as @e[type=minecraft:marker,tag=trough,tag=placed] run function matcha:e
 # Chicken
 execute as @e[type=chicken] at @s run function matcha:environmental/chicken/chicken_gift
 execute as @e[type=chicken] at @s run function matcha:environmental/chicken/chicken_plant
+execute as @e[type=chicken,tag=nest_maker] at @s run function matcha:environmental/chicken/chicken_nest
 
 # Kettles
 execute as @e[type=minecraft:marker,tag=kettle,tag=placed] run function matcha:mechanics/kettle/update_kettle

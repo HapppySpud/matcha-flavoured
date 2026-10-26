@@ -1,2 +1,5 @@
 particle minecraft:happy_villager ~ ~ ~ .3 .1 .3 0 5
-setblock ~ ~ ~ minecraft:short_grass
+execute if block ~ ~-0.5 ~ minecraft:farmland run \
+    execute if block ~ ~0.5 ~ minecraft:air run \
+    setblock ~ ~-0.5 ~ dirt
+setblock ~ ~0.5 ~ minecraft:short_grass

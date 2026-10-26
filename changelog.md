@@ -143,17 +143,22 @@ Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay 
 - So if Cows and chickens are kept together, the chickens should be able to sustain the cow population's happiness
 - Right now cows have no influence over chicken populations (this should be changed...I hope it can be)
 - Chickens CANNOT be bred to give live birth
+- Chickens are able to eat wheat, and if they do, they turn INTO a nest-maker
+    - If a chicken is made into a nest maker, rather than born one, they will nest quickly (~10-30s)
+    - Keep your chickens out of your wheat fields! I'm warning you, it can cause an infestation. You'll have a MILLION CHICKENS!!*
+    - Babies cannot turn into nest makers or mamas
+    - *Its not that bad honestly, due to the chicken home radius and stuff this is unlikley to occur, really I think, this would mostly happen from pranks or something
+    - Further unlikley to get out of hand bc of the new awful passive mob pathing behaviours mojang recently implemented >:c
+    - After testing this in my world, yes it makes a million chickens but the spread is really slow and pretty contained
+
 
 ##### TBI
 - Chickes have diff personality types which influence their drops and behaviours
     - Mama - Makes a ton of eggs, stays in the nest
     - Mundane - A normal chicken, makes some eggs, some feathers, stays near home
     - Curious - Digs up trinkets and shiny things, wanders pretty far
-    - Home-builder - Wanders far from home and makes a new one! After they make a nest they turn into a mama and make 2 babies
+    - Nest-maker - Wanders far from home and makes a new one! After they make a nest they turn into a mama and make 2 babies
     - Rascal - A type of seagull which only makes bonemeal
-- Chickens should be able to eat wheat, and if they do, they turn INTO a home-builder
-    - Keep your chickens out of your wheat fields! In no time, theyll have colonised the whole lot! With plenty of nests and chickens eating at them.
-    - Babies cannot turn into home builders or mamas
 - GMOS
     - A special villager will trade select cultivars of chickens (for animals a cultivar is called a breed, but I dont like that term, it doesn't sound as exciting)
     - The cultivars are the different personalities of chicken!
@@ -161,6 +166,7 @@ Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay 
     - Like cows, if kept too close to home, most chickens get upset, they want freedom!
     - Mamas never get upset if too close to home, nor babies
     - I dont know to implement this yet, i want it to curb hopper chickens farms, but people would just move the chickens away from their home and in a little box, that doesn't seem very nice
+    - BUT also, cows are the fickle ones, pigs are the ones who change based on enviro, chickens are the ones who have special unique behaviours. So honestly, seems pretty balanced. I dont want to have players have to pay attention to chicken behaviours AND ALSO manage their emotions, each animal should have one unique thing, and we permutate on that as much as possible. Im hoping the unique interactions and cute factor will make most players think twice before doing it.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
