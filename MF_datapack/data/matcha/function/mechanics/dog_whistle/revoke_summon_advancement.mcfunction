@@ -1,1 +1,0 @@
-advancement revoke @a only matcha:mechanics/dog_whistle_summon

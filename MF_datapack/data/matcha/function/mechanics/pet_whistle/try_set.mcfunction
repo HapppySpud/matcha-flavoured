@@ -1,0 +1,1 @@
+return run data modify storage matcha:pet_whistle check_UUIDs[0] set from storage matcha:pet_whistle UUID

@@ -8,7 +8,7 @@
 					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"minecraft:entity_type": "#matcha:dog_whistle_summons"
+						"minecraft:entity_type": "#matcha:pet_whistle_summons"
 					}
 				}
 			}
@@ -21,6 +21,6 @@
 	],
 	"rewards": {
 		"recipes": [],
-		"function": "matcha:mechanics/dog_whistle/bind"
+		"function": "matcha:mechanics/pet_whistle/bind"
 	}
 }

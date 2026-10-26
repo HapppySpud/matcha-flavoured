@@ -1,0 +1,2 @@
+execute anchored eyes positioned ^ ^ ^1.5 run data modify storage matcha:pet_whistle owner_UUID set from entity @n[type=#matcha:pet_whistle_summons] Owner
+return run data modify storage matcha:pet_whistle owner_UUID set from entity @s UUID

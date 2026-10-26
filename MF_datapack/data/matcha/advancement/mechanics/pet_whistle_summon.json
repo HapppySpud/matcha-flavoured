@@ -6,7 +6,7 @@
 			"conditions": {
 				"item": {
 					"components": {
-						"minecraft:item_model": "matcha:dog_whistle"
+						"minecraft:item_model": "matcha:pet_whistle"
 					}
 				}
 			}
@@ -19,6 +19,6 @@
 	],
 	"rewards": {
 		"recipes": [],
-		"function": "matcha:mechanics/dog_whistle/summon"
+		"function": "matcha:mechanics/pet_whistle/summon"
 	}
 }

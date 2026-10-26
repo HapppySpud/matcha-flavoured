@@ -5,7 +5,7 @@
         "minecraft:equipment": {
             "mainhand": {
                 "components": {
-                    "minecraft:item_model": "matcha:dog_whistle"
+                    "minecraft:item_model": "matcha:pet_whistle"
                 }
             }
         }

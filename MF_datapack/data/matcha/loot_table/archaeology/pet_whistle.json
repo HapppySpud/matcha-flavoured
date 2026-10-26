@@ -9,16 +9,16 @@
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {
-							"minecraft:item_model": "matcha:dog_whistle",
+							"minecraft:item_model": "matcha:pet_whistle",
 							"minecraft:item_name": {
-								"translate": "item.kleispack.dog_whistle"
+								"translate": "item.kleispack.pet_whistle"
 							},
 							"minecraft:instrument": {
 								"sound_event": "minecraft:ambient.soul_sand_valley.mood",
 								"range": 16,
 								"use_duration": 30,
 								"description": {
-									"translate": "item.kleispack.dog_whistle.desc"
+									"translate": "item.kleispack.pet_whistle.desc"
 								}
 							}
 						}
@@ -29,5 +29,5 @@
 			"rolls": 1
 		}
 	],
-	"random_sequence": "matcha:archaelogy/dog_whistle"
+	"random_sequence": "matcha:archaelogy/pet_whistle"
 }
