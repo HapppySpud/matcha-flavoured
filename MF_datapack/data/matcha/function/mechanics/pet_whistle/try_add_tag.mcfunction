@@ -1,1 +1,1 @@
-execute anchored eyes positioned ^ ^ ^1.5 run return run function matcha:mechanics/pet_whistle/add_tag with entity @s SelectedItem.components.minecraft:custom_data
+return run function matcha:mechanics/pet_whistle/add_tag with entity @s SelectedItem.components.minecraft:custom_data

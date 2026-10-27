@@ -1,2 +1,2 @@
-execute unless function matcha:mechanics/pet_whistle/try_remove_tag run return run tellraw @s {"translate": "log.kleispack.pet_whistle.not_bound", "color": "red"}
-tellraw @s {"translate": "log.kleispack.pet_whistle.unbind_success", "color": "green"}
+execute anchored eyes positioned ^ ^ ^1.5 unless function matcha:mechanics/pet_whistle/try_remove_tag run return run tellraw @s {"translate": "log.kleispack.pet_whistle.not_bound", "color": "red", "with": [{"selector": "@n[type=#matcha:pet_whistle_summons]"}]}
+execute anchored eyes positioned ^ ^ ^1.5 run tellraw @s {"translate": "log.kleispack.pet_whistle.unbind_success", "color": "green", "with": [{"selector": "@n[type=#matcha:pet_whistle_summons]"}]}

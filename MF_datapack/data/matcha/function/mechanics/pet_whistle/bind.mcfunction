@@ -8,9 +8,9 @@ execute unless data entity @s SelectedItem.components.minecraft:custom_data.whis
 execute if predicate matcha:flags/is_sneaking run return run function matcha:mechanics/pet_whistle/unbind
 
 # Check ownership
-execute if function matcha:mechanics/pet_whistle/check_ownership run return run function matcha:mechanics/pet_whistle/bind_fail_not_owner
+execute anchored eyes positioned ^ ^ ^1.5 if function matcha:mechanics/pet_whistle/check_ownership run return run function matcha:mechanics/pet_whistle/bind_fail_not_owner
 data remove storage matcha:pet_whistle owner_UUID
 
 # Add tag
-execute unless function matcha:mechanics/pet_whistle/try_add_tag run return run tellraw @s {"translate": "log.kleispack.pet_whistle.already_bound", "color": "red"}
-tellraw @s {"translate": "log.kleispack.pet_whistle.bind_success", "color": "green"}
+execute anchored eyes positioned ^ ^ ^1.5 unless function matcha:mechanics/pet_whistle/try_add_tag run return run tellraw @s {"translate": "log.kleispack.pet_whistle.already_bound", "color": "red", "with": [{"selector": "@n[type=#matcha:pet_whistle_summons]"}]}
+execute anchored eyes positioned ^ ^ ^1.5 run tellraw @s {"translate": "log.kleispack.pet_whistle.bind_success", "color": "green", "with": [{"selector": "@n[type=#matcha:pet_whistle_summons]"}]}
