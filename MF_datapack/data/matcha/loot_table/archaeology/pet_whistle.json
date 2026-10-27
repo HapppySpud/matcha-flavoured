@@ -14,9 +14,9 @@
 								"translate": "item.kleispack.pet_whistle"
 							},
 							"minecraft:instrument": {
-								"sound_event": "minecraft:ambient.soul_sand_valley.mood",
-								"range": 16,
-								"use_duration": 30,
+								"sound_event": "minecraft:block.note_block.flute",
+								"range": 64,
+								"use_duration": 20,
 								"description": {
 									"translate": "item.kleispack.pet_whistle.desc"
 								}
