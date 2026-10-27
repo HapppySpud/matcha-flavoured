@@ -521,3 +521,68 @@ But if we let them do that, they shouldn't also be able to eat grasses
 - Sulfur high in sulfur caves
 - Iron high in Cold Biomes
 
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## Adventure Update Wishlist
+
+- Alloys
+    - Gold Alloy
+        - Thorns + Aura Interaction
+        - A stronger gold
+        - What would chainmail do? Impact Res, like...prot? Oh maybe prot, straight up. Like, sure, anvil it together, thats fine. Its only chainmail
+    - Vermeil
+        - Good tool with NO intrinsics, essentially is a way for sweats to custom-build a pickaxe and intrinics from scratch
+        - (Ask Github peeps about this later, when its closer to being implemented)
+        - This may require it be a stone pick, and stone picks are the only ones which can be *smithed* with Wither Tabula
+            - So we'll need to turn stone tools (I think shakudo and Hepatizon) into...copper?
+            - OR we can make the vermeil tools be spawn eggs...Hmm IDK if axe-stipping and hoeing is hard-coded behaviour
+        - Wither tabula, AKA have no Enchants which can be applied via anvil. They only appear to
+
+
+- Structures
+    - Seminary
+    - Abbey
+    - Ruined Portals (Aiden's)
+    - New Villages
+        - Using pillager outpost inspo
+    - Remove/redo papal outposts
+    - Remove Beta Villages
+
+- Wither Boss fight
+    - Real Boss fight
+    - Wither Tabula and the Wither Heart
+    - Aspects
+
+- Combat
+    - Wood, Copper, Iron, Steel Shields
+
+- Horses
+    - Horse armour for alloys
+    - Special horse foods to boost their stats
+
+- Nether Lock Off
+    - Must visit the Abbey and the Seminary
+    - Two Books must be craftable into some holy text, attaining it will unlock the nether for everyone
+    - Warding stones must be findable in Nether Ruins
+
+- End Lock Off
+    - Ender eye can only be attained after some amount of books
+    - I think nether sturctures is going to be a big hassle, maybe for now it could just be bastions
+    - (Seminary + Abbey) + (Bastion + ???) = Mending Book + Stabilised Estus == Ender Eyes (16)
+
+- Enchant Rework
+    - Redo ofuda and their books
+    - Remove blast resistance from Blast resitance and move it to another enchant
+    - Make protection mutx but also make it worse than 80%, cap it at a lower thing? Idk, something like that 
+    - I really like Jab's Fixed enchant system. Theres no way we could do that with a DP though
+
+- End??
+    - The end is so boring I dont even want to touch it
+    - Also im sure Mojang is aobut to update it anyways
+
+- The Sift
+    - ;-; i dont wanna
