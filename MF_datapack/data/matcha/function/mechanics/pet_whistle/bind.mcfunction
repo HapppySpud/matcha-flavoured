@@ -14,3 +14,4 @@ data remove storage matcha:pet_whistle owner_UUID
 # Add tag
 execute anchored eyes positioned ^ ^ ^1.5 unless function matcha:mechanics/pet_whistle/try_add_tag run return run tellraw @s {"translate": "log.kleispack.pet_whistle.already_bound", "color": "red", "with": [{"selector": "@n[type=#matcha:pet_whistle_summons]"}]}
 execute anchored eyes positioned ^ ^ ^1.5 run tellraw @s {"translate": "log.kleispack.pet_whistle.bind_success", "color": "green", "with": [{"selector": "@n[type=#matcha:pet_whistle_summons]"}]}
+playsound minecraft:block.amethyst_cluster.place block @s ~ ~ ~ 0.7
