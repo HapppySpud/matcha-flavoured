@@ -246,9 +246,9 @@
     "base": 10,
     "per_level_above_first": 10
   },
-  "slots": [
-    "feet"
-  ],
-  "supported_items": "#minecraft:enchantable/foot_armor",
+  "supported_items": "#matcha:enchantable/movement_speed",
+	"slots": [
+		"armor"
+	],
   "weight": 1
 }

@@ -3,7 +3,7 @@
 	"description": {
 		"translate": "enchantment.kleispack.freezing_protection"
 	},
-	"supported_items": "#minecraft:enchantable/chest_armor",
+	"supported_items": "#matcha:enchantable/freezing_protection",
 	"slots": [
 		"armor"
 	],

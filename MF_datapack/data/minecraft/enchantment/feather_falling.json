@@ -44,6 +44,6 @@
 	"slots": [
 		"armor"
 	],
-	"supported_items": "#minecraft:enchantable/foot_armor",
+	"supported_items": "#matcha:enchantable/feather_falling",
 	"weight": 5
 }

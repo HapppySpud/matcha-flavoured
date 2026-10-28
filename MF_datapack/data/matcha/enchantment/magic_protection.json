@@ -4,7 +4,7 @@
 		"translate": "enchantment.kleispack.magic_protection",
 		"color": "#c96691"
 	},
-	"supported_items": "#minecraft:enchantable/armor",
+	"supported_items": "#matcha:enchantable/protection",
 	"exclusive_set": "#minecraft:exclusive_set/armor",
 	"slots": [
 		"armor"

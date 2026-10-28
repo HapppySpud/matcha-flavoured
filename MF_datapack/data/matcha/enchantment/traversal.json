@@ -3,9 +3,9 @@
 	"description": {
 		"translate": "enchantment.kleispack.traversal"
 	},
-	"supported_items": "#minecraft:enchantable/foot_armor",
+	"supported_items": "#matcha:enchantable/movement_speed",
 	"slots": [
-		"feet"
+		"armor"
 	],
 	"effects": {
 		"minecraft:location_changed": [
