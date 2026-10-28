@@ -83,16 +83,8 @@ stopwatch create 0.5s
 
 # Used for village sounds
 stopwatch create eerie
-scoreboard objectives add eerie dummy
-scoreboard players set 1 eerie 1
 
 scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm
-
-scoreboard objectives add eat_cake_slice minecraft.custom:minecraft.eat_cake_slice
-scoreboard players set 1 eat_cake_slice 1
-
-scoreboard objectives add water_bucket_used minecraft.used:minecraft.water_bucket
-scoreboard players set 1 water_bucket_used 1
 
 # Used for Wither Effect (Heartbreaker)
 scoreboard objectives add wither_timer dummy
@@ -108,7 +100,7 @@ scoreboard objectives add Lifetime dummy
 
 scoreboard objectives add version_number dummy
 # EX. 104 is 1.04, it represents the current version, 1211 1.12.1
-scoreboard players set current_version version_number 1127
+scoreboard players set current_version version_number 1128
 scoreboard players set zero version_number 0
 
 scoreboard objectives add gamerule_safe_surface dummy

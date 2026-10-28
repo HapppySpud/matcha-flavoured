@@ -41,19 +41,12 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
+					"value": "minecraft:gameplay/fishing/biomes",
+					"weight": 2,
 					"modifier": {
 						"type": "minecraft:sequence",
 						"functions": [
-							{
-								"count": {
-									"type": "minecraft:uniform",
-									"max": 1,
-									"min": 0
-								},
-								"enchantment": "minecraft:looting",
-								"type": "minecraft:enchanted_count_increase"
-							},
 							{
 								"condition": {
 									"type": "minecraft:any_of",
@@ -89,9 +82,7 @@
 								"type": "minecraft:furnace_smelt"
 							}
 						]
-					},
-					"name": "minecraft:cod",
-					"weight": 2
+					}
 				},
 				{
 					"type": "minecraft:empty"

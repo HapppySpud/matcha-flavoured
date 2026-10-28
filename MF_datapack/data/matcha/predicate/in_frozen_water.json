@@ -5,14 +5,11 @@
 			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
+				"minecraft:flags": {
+					"is_in_water": true
+				},
 				"minecraft:location": {
-					"position": {
-						"y": {
-							"min": 0,
-							"max": 127
-						}
-					},
-					"dimension": "minecraft:the_nether"
+					"biomes": "#minecraft:is_frozen"
 				}
 			}
 		}

@@ -40,9 +40,6 @@
 				}
 			]
 		},
-		"minecraft:use_remainder": {
-			"id": "minecraft:bowl"
-		},
 		"minecraft:custom_data": {
 			"version": 1
 		}

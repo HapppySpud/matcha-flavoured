@@ -1538,9 +1538,6 @@
 			"version": 1,
 			"folder": [
 				[
-					"food_campfire"
-				],
-				[
 					"food_oven"
 				]
 			],
@@ -1872,9 +1869,6 @@
 			"version": 1,
 			"folder": [
 				[
-					"food_campfire"
-				],
-				[
 					"food_oven"
 				]
 			],
@@ -2047,9 +2041,6 @@
 			"version": 1,
 			"folder": [
 				[
-					"food_campfire"
-				],
-				[
 					"food_oven"
 				]
 			],
@@ -2198,9 +2189,6 @@
 			"version": 1,
 			"folder": [
 				[
-					"food_campfire"
-				],
-				[
 					"food_oven"
 				]
 			],
@@ -2280,9 +2268,6 @@
 		"ramen": {
 			"version": 1,
 			"folder": [
-				[
-					"food_campfire"
-				],
 				[
 					"food_oven"
 				],
@@ -4838,9 +4823,6 @@
 						}
 					]
 				},
-				"minecraft:use_remainder": {
-					"id": "minecraft:bowl"
-				},
 				"minecraft:custom_data": {
 					"version": 1
 				}
@@ -5382,7 +5364,7 @@
 			"ignore": null
 		},
 		"milk_bottle": {
-			"version": 1,
+			"version": 2,
 			"folder": [
 				[
 					"food_crafting"
@@ -5409,7 +5391,7 @@
 				"minecraft:max_stack_size": 64,
 				"!minecraft:food": {},
 				"minecraft:consumable": {
-					"consume_seconds": 1.6,
+					"consume_seconds": 0.8,
 					"animation": "drink",
 					"sound": "minecraft:entity.wandering_trader.drink_milk",
 					"has_consume_particles": false,
@@ -23280,9 +23262,6 @@
 			"folder": [
 				[
 					"crafting"
-				],
-				[
-					"materials"
 				]
 			],
 			"names": [],
@@ -23348,18 +23327,16 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
+				"minecraft:item_model": "matcha:beacon_kindling",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.beacon_kindling"
+				},
 				"minecraft:entity_data": {
 					"id": "minecraft:marker",
-					"NoGravity": true,
-					"Invulnerable": true,
 					"Tags": [
 						"beacon_kindling"
 					]
 				},
-				"minecraft:item_name": {
-					"translate": "item.kleispack.beacon_kindling"
-				},
-				"minecraft:item_model": "matcha:beacon_kindling",
 				"minecraft:custom_data": {
 					"version": 1
 				}
@@ -30092,11 +30069,11 @@
 				],
 				[
 					"equipment",
-					"misc"
+					"hepatizon"
 				],
 				[
 					"equipment",
-					"hepatizon"
+					"misc"
 				]
 			],
 			"names": [
@@ -35217,7 +35194,7 @@
 			],
 			"id": "minecraft:brush",
 			"use": [
-				true,
+				false,
 				false,
 				true
 			],
@@ -36088,8 +36065,8 @@
 			"models": [],
 			"id": "minecraft:red_bundle",
 			"use": [
-				true,
 				false,
+				true,
 				false
 			],
 			"type": "generic",
@@ -36474,7 +36451,7 @@
 			],
 			"id": "minecraft:bone",
 			"use": [
-				true,
+				false,
 				false,
 				true
 			],
@@ -36733,7 +36710,7 @@
 			],
 			"id": "minecraft:porkchop",
 			"use": [
-				true,
+				false,
 				false,
 				true
 			],
@@ -38200,7 +38177,11 @@
 		"excludedIds": [
 			"minecraft:book",
 			"minecraft:bow",
-			"minecraft:shield"
+			"minecraft:shield",
+			"minecraft:porkchop",
+			"minecraft:bone",
+			"minecraft:brush",
+			"minecraft:red_bundle"
 		],
 		"overrideType": {
 			"amber": "mineral",

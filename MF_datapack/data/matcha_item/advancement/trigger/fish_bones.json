@@ -23,17 +23,6 @@
 													}
 												}
 											}
-										},
-										{
-											"type": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"minecraft:slots": {
-													"weapon.mainhand": {
-														"items": "minecraft:bone"
-													}
-												}
-											}
 										}
 									]
 								},
@@ -72,17 +61,6 @@
 														"components": {
 															"minecraft:item_name": "matcha:fish_bones"
 														}
-													}
-												}
-											}
-										},
-										{
-											"type": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"minecraft:slots": {
-													"weapon.offhand": {
-														"items": "minecraft:bone"
 													}
 												}
 											}

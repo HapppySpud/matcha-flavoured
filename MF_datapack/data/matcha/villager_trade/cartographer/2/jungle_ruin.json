@@ -20,7 +20,7 @@
 		{
 			"type": "minecraft:set_name",
 			"name": {
-				"translate": "filled_map.explorer_jungle"
+				"translate": "item.minecraft.jungle_pyramid_map"
 			},
 			"target": "item_name"
 		}

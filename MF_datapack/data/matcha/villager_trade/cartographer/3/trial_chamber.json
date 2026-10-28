@@ -20,7 +20,7 @@
 		{
 			"type": "minecraft:set_name",
 			"name": {
-				"translate": "filled_map.trial_chambers"
+				"translate": "item.minecraft.buried_trial_chambers_map"
 			},
 			"target": "item_name"
 		}

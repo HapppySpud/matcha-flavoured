@@ -1,0 +1,178 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone_meal",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 16
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:melon_seeds",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 8
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pumpkin_seeds",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 8
+					}
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:food/minecraft/sweet_berries",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 8
+					}
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:food/minecraft/glow_berries",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 8
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:red_mushroom",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 8
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brown_mushroom",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 8
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:glow_lichen",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 8
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shelf_mushroom",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 8
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wheat_seeds",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 8
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot_seeds",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 8
+					}
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:food/minecraft/carrot",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 2
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 2
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chicken_spawn_egg",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "minecraft:blue_egg",
+							"minecraft:entity_data": {
+								"id": "minecraft:chicken",
+								"Age": -24000,
+								"variant": "minecraft:cold"
+							},
+							"minecraft:item_name": {
+								"translate": "item.kleispack.fertilised_blue_egg"
+							},
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chicken_spawn_egg",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "minecraft:brown_egg",
+							"minecraft:entity_data": {
+								"id": "minecraft:chicken",
+								"Age": -24000,
+								"variant": "minecraft:warm"
+							},
+							"minecraft:item_name": {
+								"translate": "item.kleispack.fertilised_brown_egg"
+							},
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+					}
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chicken_spawn_egg",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "minecraft:white_egg",
+							"minecraft:entity_data": {
+								"id": "minecraft:chicken",
+								"Age": -24000,
+								"variant": "minecraft:temperate"
+							},
+							"minecraft:item_name": {
+								"translate": "item.kleispack.fertilised_white_egg"
+							},
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+					}
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:gameplay/hero_of_the_village/farmer_gift"
+}

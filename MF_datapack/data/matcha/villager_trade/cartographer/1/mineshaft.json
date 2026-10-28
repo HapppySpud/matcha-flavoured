@@ -20,7 +20,7 @@
 		{
 			"type": "minecraft:set_name",
 			"name": {
-				"translate": "filled_map.mineshaft"
+				"translate": "item.minecraft.buried_mineshaft_map"
 			},
 			"target": "item_name"
 		}

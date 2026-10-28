@@ -3,7 +3,7 @@
 	"description": {
 		"translate": "enchantment.kleispack.zephyr"
 	},
-	"supported_items": "#minecraft:enchantable/foot_armor",
+	"supported_items": "minecraft:leather_boots",
 	"slots": [
 		"feet"
 	],

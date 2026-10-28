@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:sequence",
+	"functions": [
+		{
+			"type": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "matcha:beacon_kindling"
+			}
+		}
+	]
+}

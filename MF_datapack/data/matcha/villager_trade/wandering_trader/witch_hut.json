@@ -11,7 +11,7 @@
 			{
 				"type": "minecraft:set_name",
 				"name": {
-					"translate": "filled_map.explorer_swamp"
+					"translate": "item.minecraft.swamp_hut_map"
 				},
 				"target": "item_name"
 			},

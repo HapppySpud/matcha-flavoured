@@ -20,7 +20,7 @@
 		{
 			"type": "minecraft:set_name",
 			"name": {
-				"translate": "filled_map.desert_pyramid"
+				"translate": "item.minecraft.desert_pyramid_map"
 			},
 			"target": "item_name"
 		}

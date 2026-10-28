@@ -20,7 +20,7 @@
 		{
 			"type": "minecraft:set_name",
 			"name": {
-				"translate": "filled_map.warm_ocean_ruin"
+				"translate": "item.minecraft.warm_ocean_ruins_map"
 			},
 			"target": "item_name"
 		}

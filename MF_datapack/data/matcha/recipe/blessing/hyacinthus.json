@@ -15,7 +15,8 @@
 	"result": {
 		"components": {
 			"minecraft:stored_enchantments": {
-				"matcha:zephyr": 1
+				"matcha:zephyr": 1,
+				"minecraft:wind_burst": 1
 			},
 			"minecraft:item_name": {
 				"translate": "item.kleispack.blessing"

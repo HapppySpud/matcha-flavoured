@@ -20,7 +20,7 @@
 		{
 			"type": "minecraft:set_name",
 			"name": {
-				"translate": "filled_map.monument"
+				"translate": "item.minecraft.ocean_monument_map"
 			},
 			"target": "item_name"
 		}
