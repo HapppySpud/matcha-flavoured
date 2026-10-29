@@ -16,13 +16,6 @@ execute if score @s wither_timer matches 6 run return run title @s actionbar [{t
 execute if score @s wither_timer matches 5 run return run title @s actionbar [{text:"\uE010",color:"red"},{text:" \uE048\uE044\uE049",color:"white"}]
 execute if score @s wither_timer matches 4 run return run title @s actionbar [{text:"\uE010",color:"red"},{text:" \uE04A\uE044\uE049",color:"white"}]
 
-execute if score @s wither_timer matches 3 run title @s actionbar {text:"\uE010 \uE04A\uE044\uE049",color:"red"}
-
-# Since the function would have returned by now if they weren't at max withering (8+): decrement hearts, clear the wither effect and remove them from the scoreboard
-effect clear @s wither
-function matcha:mechanics/heart_container/hpdown
-playsound minecraft:item.totem.use player @s ~ ~ ~ .25 0 0
-damage @s 0.1
-scoreboard players reset @s wither_timer
-#Grant Player Heart Breaker Adv
-advancement grant @s only matcha:hell/wither_breaks_heart
+# Since the function would have returned by now if they weren't at max withering (8+), apply Heartbreaker effect
+title @s actionbar {text:"\uE010 \uE04A\uE044\uE049",color:"red"}
+function matcha:effects/wither/heartbreaker
