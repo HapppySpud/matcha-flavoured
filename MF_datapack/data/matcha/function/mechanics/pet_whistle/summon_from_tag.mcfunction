@@ -1,2 +1,2 @@
 $execute as @e[type=#matcha:pet_whistle_summons, tag=whistle$(whistleId)] if function matcha:mechanics/pet_whistle/summon_and_stand run return run tellraw @p {"translate": "log.kleispack.pet_whistle.summon_success"}
-tellraw @p {"translate": "log.kleispack.pet_whistle.summon_fail"}
+tellraw @s {"translate": "log.kleispack.pet_whistle.summon_fail"}
