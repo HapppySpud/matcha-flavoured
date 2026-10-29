@@ -28,7 +28,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/biomes",
+					"value": "minecraft:gameplay/fishing/fish",
 					"weight": 85,
 					"quality": -1
 				}

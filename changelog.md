@@ -191,6 +191,7 @@ Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay 
 
 
 ## BUGS
+- FISHING IS FUCKED!!!!!!!!! I made some changes in main for quality and weights, those might not have been carried over
 
 
 ## Ready for alpha
