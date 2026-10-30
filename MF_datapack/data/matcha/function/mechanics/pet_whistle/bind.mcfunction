@@ -1,4 +1,6 @@
+# Reset trigger
 advancement revoke @s only matcha:mechanics/pet_whistle_bind
+# Return if not holding whistle
 execute unless predicate matcha:items/is_pet_whistle run return fail
 
 # Ensure whistle has an id
@@ -14,5 +16,6 @@ data remove storage matcha:pet_whistle owner_UUID
 # Add tag
 execute anchored eyes positioned ^ ^ ^1.5 unless function matcha:mechanics/pet_whistle/try_add_tag run return run function matcha:mechanics/pet_whistle/already_bound
 
+# If success
 execute anchored eyes positioned ^ ^ ^1.5 run tellraw @s {"translate": "log.kleispack.pet_whistle.bind_success", "color": "green", "with": [{"selector": "@n[type=#matcha:pet_whistle_summons]"}]}
 playsound minecraft:block.amethyst_cluster.break neutral @s ~ ~ ~ 0.7

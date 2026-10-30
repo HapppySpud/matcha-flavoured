@@ -1,7 +1,10 @@
 # Reset trigger
 advancement revoke @s only matcha:mechanics/amnestic/pet
+# Return if not holding amnestic
 execute unless predicate matcha:items/is_amnestic run return fail
-execute if function matcha:mechanics/amnestic/check_pet_ownership run return run data remove storage matcha:amnestic_pets owner_UUID
+
+# Check ownership
+execute anchored eyes positioned ^ ^ ^1.5 if function matcha:mechanics/amnestic/check_pet_ownership run return run data remove storage matcha:amnestic_pets owner_UUID
 data remove storage matcha:amnestic_pets owner_UUID
 
 # Run amnestic effects on (approximately) the pet that was clicked with the amnestic
