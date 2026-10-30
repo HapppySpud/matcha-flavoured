@@ -16,12 +16,12 @@ execute unless block ~ ~-0.8 ~ #matcha:animal_affects/pig_interactable run retur
 #If the block the pig is in, is edible, eat it
 execute if block ~ ~0.5 ~ #matcha:animal_affects/pig_edible run function matcha:environmental/pig/dig/animation
 # Check to make sure there isn't anything edible on top of the block it is trying to dig, so that the function does not trigger twice
-execute if block ~ ~-1 ~ #matcha:animal_affects/pig_diggable_dirt \
+execute if block ~ ~-1 ~ #matcha:animal_affects/pig_diggable \
     unless block ~ ~0.5 ~ #matcha:animal_affects/pig_edible \
     run function matcha:environmental/pig/dig/animation
 
 #Check if pig can play on this 
-execute if block ~ ~-0.8 ~ #matcha:animal_affects/pig_can_play_on run function matcha:environmental/pig/play/animation
+execute if block ~ ~-0.8 ~ #matcha:animal_affects/pig_playable run function matcha:environmental/pig/play/animation
 
 
 

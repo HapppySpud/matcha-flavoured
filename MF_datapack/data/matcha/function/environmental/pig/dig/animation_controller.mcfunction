@@ -21,9 +21,9 @@ execute if score @s matcha.digging_animation matches 1 run execute at @s run pla
 # --- Check at the end of the animation to make sure the pig is STILL on the block it was digging at the begining (or at least the same type)
 # Check to make sure there isn't anything edible on top of the block it is trying to dig, so that the function does not trigger twice
 execute if score @s matcha.digging_animation matches 1 run execute at @s run execute \
-    if block ~ ~-1 ~ #matcha:animal_affects/pig_diggable_dirt \
+    if block ~ ~-1 ~ #matcha:animal_affects/pig_diggable \
     unless block ~ ~0.5 ~ #matcha:animal_affects/pig_edible \
-    run execute as @s run function matcha:environmental/pig/dig/dig_dirt_based_block
+    run execute as @s run function matcha:environmental/pig/dig/dig_block
 
 execute if score @s matcha.digging_animation matches 1 run execute at @s run execute \
     if block ~ ~0.5 ~ #matcha:animal_affects/pig_edible \

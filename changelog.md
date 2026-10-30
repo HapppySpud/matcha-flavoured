@@ -114,6 +114,10 @@ Each animal affect was designed with three things in mind:
 - Stewardship
     - Is the player rewarded for helping our EA, on the species' terms? 
 
+#### Pig Mechanics
+- Pigs will dig occasionally if on proper ground (Grass, Gravel, Mycelum, Podzol, or Rooted Dirt)
+- Each block has a different LT
+
 #### Cow Mechanics
 - Trough when placed causes all cows within 50 blocks to set their home to it
     - A heart will appear over cows when a trough is placed, this shows you that they see the trough and are coming (slowly)
@@ -184,6 +188,25 @@ Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay 
 - Trough block display inside cauldron
 - Happy cow LT
 - When breeding cows, adv triggers that makes the child set its home to the parent's home (trough)
+
+- Pig LT
+    - Podzol
+        - Leaf litter?
+        - Stick
+        - Shrooms
+    - Grass Block
+        - Defaults
+    - Mycelium
+        - No root veg, only shrooms, but a lot of them
+    - Gravel
+        - Flint
+        - Some precious stones
+    - Coarse Dirt
+        - Maybe make it the same as gravel
+    - Rooted Dirt
+        - More tubers
+        - Roots
+
 
 - When done with brewing
 - Update all brewing LTs

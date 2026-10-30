@@ -92,14 +92,14 @@
                     "children": [
                         {
                             "type": "minecraft:loot_table",
-                            "value": "matcha:gameplay/pig_gift/default",
+                            "value": "matcha:gameplay/pig_gift/grass_block",
                             "condition": {
                                 "type": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
                                     "minecraft:entity_tags": {
-                                        "none_of": [
-                                            "muddy"
+                                        "any_of": [
+                                            "grass_block"
                                         ]
                                     }
                                 }
@@ -107,14 +107,59 @@
                         },
                         {
                             "type": "minecraft:loot_table",
-                            "value": "matcha:gameplay/pig_gift/default",
+                            "value": "matcha:gameplay/pig_gift/rooted_dirt",
                             "condition": {
                                 "type": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
                                     "minecraft:entity_tags": {
                                         "any_of": [
-                                            "muddy"
+                                            "rooted_dirt"
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "matcha:gameplay/pig_gift/gravel",
+                            "condition": {
+                                "type": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "minecraft:entity_tags": {
+                                        "any_of": [
+                                            "gravel"
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "matcha:gameplay/pig_gift/mycelium",
+                            "condition": {
+                                "type": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "minecraft:entity_tags": {
+                                        "any_of": [
+                                            "mycelium"
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "matcha:gameplay/pig_gift/podzol",
+                            "condition": {
+                                "type": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "minecraft:entity_tags": {
+                                        "any_of": [
+                                            "podzol"
                                         ]
                                     }
                                 }

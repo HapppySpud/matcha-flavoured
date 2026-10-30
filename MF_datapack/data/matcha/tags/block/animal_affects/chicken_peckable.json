@@ -1,8 +1,7 @@
 {
     "values": [
         "minecraft:grass_block",
-        "#matcha:animal_affects/dirts",
-        "#matcha:animal_affects/mycelia",
+        "minecraft:mycelium",
         "minecraft:farmland"
     ]
 }
