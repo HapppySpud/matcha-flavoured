@@ -1,0 +1,1 @@
+return run function matcha:mechanics/pet_whistle/add_tag with entity @s SelectedItem.components.minecraft:custom_data

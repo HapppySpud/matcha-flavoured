@@ -35,6 +35,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"value": "matcha:archaeology/pet_whistle"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"value": "matcha:treasure/avesta"
 				}
 			],

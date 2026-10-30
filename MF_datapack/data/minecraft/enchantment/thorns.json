@@ -50,6 +50,6 @@
   "slots": [
     "any"
   ],
-  "supported_items": "#minecraft:enchantable/armor",
+  "supported_items": "#matcha:enchantable/thorns",
   "weight": 1
 }
