@@ -16,6 +16,10 @@ data remove storage matcha:pet_whistle owner_UUID
 # Add tag
 execute anchored eyes positioned ^ ^ ^1.5 unless function matcha:mechanics/pet_whistle/try_add_tag run return run function matcha:mechanics/pet_whistle/already_bound
 
+# Add Chunkloader
+execute anchored eyes positioned ^ ^ ^1.5 run execute as @n run function matcha:mechanics/pet_whistle/add_chunkloader
 # If success
-execute anchored eyes positioned ^ ^ ^1.5 run tellraw @s {"translate": "log.kleispack.pet_whistle.bind_success", "color": "green", "with": [{"selector": "@n[type=#matcha:pet_whistle_summons]"}]}
-playsound minecraft:block.amethyst_cluster.break neutral @s ~ ~ ~ 0.7
+# execute anchored eyes positioned ^ ^ ^1.5 run tellraw @s {"translate": "log.kleispack.pet_whistle.bind_success", "color": "green", "with": [{"selector": "@n[type=#matcha:pet_whistle_summons]"}]}
+# playsound minecraft:block.amethyst_cluster.break neutral @s ~ ~ ~ 0.7
+execute anchored eyes positioned ^ ^ ^1.5 run execute at @n run particle note ~ ~1 ~ 0 0 0 0 1
+playsound minecraft:block.note_block.flute player @s ~ ~ ~ 1 1

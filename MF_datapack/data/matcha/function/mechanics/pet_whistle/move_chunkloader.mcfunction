@@ -1,0 +1,1 @@
+execute at @s run tp @n[type=minecraft:ender_pearl,tag=chunkloader] ~ ~2.5 ~
